@@ -1,0 +1,23 @@
+body {
+  font-family: "Dosis";
+  font-weight: 400;
+  color: $color-grey;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-red;
+  transition: color ease-out .2s;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-lightRed;
+  }
+}

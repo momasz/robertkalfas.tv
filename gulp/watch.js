@@ -13,8 +13,8 @@ module.exports = function(options) {
     gulp.watch([options.src + '/*.html', 'bower.json'], ['inject']);
 
     gulp.watch([
-      options.src + '/{app,components}/**/*.css',
-      options.src + '/{app,components}/**/*.scss'
+      options.src + '/{app,assets,components}/**/*.css',
+      options.src + '/{app,assets,components}/**/*.scss'
     ], function(event) {
       if(isOnlyChange(event)) {
         gulp.start('styles');

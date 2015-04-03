@@ -1,0 +1,17 @@
+.nav-bar {
+  overflow: hidden;
+
+  .title {
+    float: left;
+  }
+
+  .menu {
+    float: right;
+    list-style: none;
+
+    li {
+      float: left;
+      padding: 10px;
+    }
+  }
+}

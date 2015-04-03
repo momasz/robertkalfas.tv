@@ -12,9 +12,9 @@ module.exports = function(options) {
     };
 
     var injectFiles = gulp.src([
-      options.src + '/{app,components}/**/*.scss',
-      '!' + options.src + '/app/index.scss',
-      '!' + options.src + '/app/vendor.scss'
+      options.src + '/{app,assets,components}/**/*.scss',
+      '!' + options.src + '/assets/scss/index.scss',
+      '!' + options.src + '/assets/scss/vendor.scss'
     ], { read: false });
 
     var injectOptions = {
@@ -32,8 +32,8 @@ module.exports = function(options) {
     var cssFilter = $.filter('**/*.css');
 
     return gulp.src([
-      options.src + '/app/index.scss',
-      options.src + '/app/vendor.scss'
+      options.src + '/assets/scss/index.scss',
+      options.src + '/assets/scss/vendor.scss'
     ])
     .pipe(indexFilter)
     .pipe($.inject(injectFiles, injectOptions))
