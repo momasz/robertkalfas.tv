@@ -1,4 +1,9 @@
 .container {
   max-width: $grid-width-web;
   margin: 0 auto;
+  padding: 0 $grid-gutter-width;
+
+  @include respond-to(web) {
+    padding: 0;
+  }
 }

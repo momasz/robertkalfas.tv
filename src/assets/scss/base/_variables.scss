@@ -4,10 +4,16 @@
 $grid-width-tablet: 768px;
 $grid-width-web: 980px;
 $grid-width-big: 1200px;
+$grid-gutter-width: 20px;
 // ------------------------------------
 // COLORS
 // ------------------------------------
 $color-red: rgb(226,74,55);
 $color-lightRed: rgb(232,113,98);
+$color-lightGrey: rgb(190,190,190);
 $color-grey: rgb(95,94,93);
 $color-pink: rgb(242,116,144);
+$color-white: rgb(255,255,255);
+$color-black: rgb(0,0,0);
+
+$nav-border: solid 1px $color-lightGrey;

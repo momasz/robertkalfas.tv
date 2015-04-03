@@ -1,11 +1,20 @@
 .movie-container {
+  .video {
+    transition: height ease .2s;
 
+    &.hidden {
+      height: 0;
+    }
+  }
 }
 
 .movies-container {
   overflow: hidden;
   list-style: none;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -$grid-gutter-width/2;
+  margin-right: -$grid-gutter-width/2;
   padding: 0;
 
   .movie {
@@ -14,6 +23,29 @@
     @include respond-to(tablet) {
       float: left;
       width: 100% * 1/3;
+      padding: 0 $grid-gutter-width/2 $grid-gutter-width;
+    }
+
+    .description {
+      transition: opacity ease .2s, background ease .2s;
+      opacity: 0;
+      background: transparent;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-size: 32px;
+      line-height: 100%;
+      color: $color-white;
+    }
+
+    &:hover {
+      .description {
+        background: rgba($color-black,0.5);
+        opacity: 1;
+      }
     }
   }
 }

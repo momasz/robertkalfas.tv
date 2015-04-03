@@ -1,4 +1,7 @@
 .footer {
+  border-top: $nav-border;
+  padding: $grid-gutter-width 0;
+
   .heart-icon {
     color: $color-pink;
   }

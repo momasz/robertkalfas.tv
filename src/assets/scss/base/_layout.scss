@@ -4,6 +4,10 @@ body {
   color: $color-grey;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -39,4 +43,8 @@ a {
     height: 100%;
     bottom: 0;
   }
+}
+
+.content {
+  padding: $grid-gutter-width 0;
 }
