@@ -6,6 +6,10 @@
       height: 0;
     }
   }
+
+  .description {
+    padding: $grid-gutter-width 0;
+  }
 }
 
 .movies-container {
@@ -22,8 +26,12 @@
 
     @include respond-to(tablet) {
       float: left;
-      width: 100% * 1/3;
+      width: 50%;
       padding: 0 $grid-gutter-width/2 $grid-gutter-width;
+    }
+
+    @include respond-to(web) {
+      width: 100% * 1/3;
     }
 
     .description {
