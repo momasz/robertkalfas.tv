@@ -1,0 +1,41 @@
+// ------------------------------------
+// BREAKPOINTS
+// ------------------------------------
+@mixin respond-to($device) {
+  @if $device == mobile-only {
+    @media (max-width: $grid-width-tablet) {
+      @content;
+    }
+  }
+  @else if $device == tablet {
+    @media (min-width: $grid-width-tablet + 1) {
+      @content;
+    }
+  } @else if $device == tablet-only {
+    @media (min-width: $grid-width-tablet + 1) and (max-width: $grid-width-web) {
+      @content;
+    }
+  } @else if $device == web {
+    @media (min-width: $grid-width-web + 1) {
+      @content;
+    }
+  } @else if $device == web-down {
+    @media (max-width: $grid-width-web) {
+      @content;
+    }
+  } @else if $device == big {
+    @media (min-width: $grid-width-big) {
+      @content;
+    }
+  }
+}
+// ------------------------------------
+// CLEARFIX
+// ------------------------------------
+@mixin clearfix {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}

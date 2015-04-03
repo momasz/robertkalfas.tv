@@ -1,0 +1,19 @@
+.movie-container {
+
+}
+
+.movies-container {
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .movie {
+    width: 100%;
+
+    @include respond-to(tablet) {
+      float: left;
+      width: 100% * 1/3;
+    }
+  }
+}

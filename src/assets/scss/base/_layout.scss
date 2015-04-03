@@ -21,3 +21,22 @@ a {
     color: $color-lightRed;
   }
 }
+
+.video-wrapper,
+.image-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+
+  iframe,
+  img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  iframe {
+    height: 100%;
+    bottom: 0;
+  }
+}

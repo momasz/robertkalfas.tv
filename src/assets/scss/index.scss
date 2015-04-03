@@ -1,5 +1,12 @@
+@import 'base/normalize';
+
 @import 'base/variables';
 @import 'base/layout';
 @import 'base/grid';
 
+@import 'helpers/mixins';
+
 @import 'components/navbar';
+@import 'components/footer';
+
+@import 'pages/work';

@@ -1,0 +1,30 @@
+<div>
+  <div ng-if="movie" class="movie-container">
+    <div class="video">
+      <div class="video-wrapper">
+        <iframe
+          ng-src="{{ trustSrc(movie.src) }}"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <div class="description">
+      {{ movie.description }}
+    </div>
+  </div>
+
+  <ul class="movies-container">
+    <li
+      class="movie"
+      ng-repeat="movie in movies">
+      <a ui-sref="work({ movie: movie.id })" title="">
+        <div class="image-wrapper">
+          <img src="{{ movie.img }}" alt="">
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
