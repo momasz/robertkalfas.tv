@@ -14,7 +14,7 @@ angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize
         controller: 'WorkCtrl',
         resolve: {
           load: function (Items) {
-            return Items.fetch('data/movies.json', 'movies');
+            return Items.fetch('movies');
           },
           movie: function($stateParams) {
             return $stateParams.movie;

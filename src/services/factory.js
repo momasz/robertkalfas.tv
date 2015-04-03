@@ -1,7 +1,9 @@
 'use strict';
 
 angular.module('robertkalfas')
-  .factory('Items', function ($q, $http) {
+  .factory('Items', ['$q', '$http', 'Config', function ($q, $http, Config) {
+    var config = Config;
+
     // expose Items API object
     return {
       /**
@@ -12,11 +14,10 @@ angular.module('robertkalfas')
       /**
        * fetch data from static file or cache object
        *
-       * @param $resource - static resource
        * @param field - field for a cache purposes
        * @returns {*} - returns promise
        */
-      fetch: function ($resource, field) {
+      fetch: function (field) {
         var items = this;
         var cached = null; //items.get(field);
 
@@ -26,11 +27,16 @@ angular.module('robertkalfas')
         }
         else {
           var defer = $q.defer();
+          var movies;
 
-          $http.get($resource).success(function (data) {
-            items.data = data;
+          $http.get('http://vimeo.com/api/v2/robertkalfas/videos.json').success(function (data) {
+            movies = data;
+
+            $http.get('http://vimeo.com/api/v2/studiopigeon/videos.json').success(function (data) {
+              items.data = movies.concat(data);
+              defer.resolve();
+            });
             //items.cache(data, field);
-            defer.resolve();
           });
 
           return defer.promise;
@@ -66,9 +72,4 @@ angular.module('robertkalfas')
         return this.data;
       }
     };
-  });
-
-angular.module('robertkalfas')
-  .factory('Movies', function (Items) {
-    return Items;
-  });
+  }]);

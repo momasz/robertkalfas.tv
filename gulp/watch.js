@@ -23,7 +23,7 @@ module.exports = function(options) {
       }
     });
 
-    gulp.watch(options.src + '/{app,components}/**/*.js', function(event) {
+    gulp.watch(options.src + '/{app,services,components}/**/*.js', function(event) {
       if(isOnlyChange(event)) {
         gulp.start('scripts');
       } else {

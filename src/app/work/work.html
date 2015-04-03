@@ -25,7 +25,7 @@
       ng-repeat="movie in movies">
       <a ui-sref="work({ movie: movie.id })" title="">
         <div class="image-wrapper">
-          <img src="{{ movie.img }}" alt="">
+          <img ng-src="{{ movie.thumbnail_large }}" alt="">
           <span class="description">{{ movie.title }}</span>
         </div>
       </a>
