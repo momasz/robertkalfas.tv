@@ -23,6 +23,7 @@ angular.module('robertkalfas')
 
     if (movie && selected) {
       var videoUrl = "https://player.vimeo.com/video/" + movie + "?title=0&byline=0&portrait=0";
+
       $scope.movie = {
         src: videoUrl,
         description: selected.description

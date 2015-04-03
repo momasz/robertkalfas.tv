@@ -11,6 +11,8 @@
 
   .description {
     padding: $grid-gutter-width 0;
+    border-bottom: dashed 1px $color-lightRed;
+    margin-bottom: $grid-gutter-width;
   }
 }
 
@@ -18,9 +20,9 @@
   overflow: hidden;
   list-style: none;
   margin-top: 0;
-  margin-bottom: 0;
   margin-left: -$grid-gutter-width/2;
   margin-right: -$grid-gutter-width/2;
+  margin-bottom: -$grid-gutter-width;
   padding: 0;
 
   .movie {
@@ -53,7 +55,7 @@
 
     &:hover {
       .description {
-        background: rgba($color-black,0.5);
+        background: rgba($color-red,0.5);
         opacity: 1;
       }
     }

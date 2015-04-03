@@ -32,11 +32,10 @@ angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize
   .run(function($rootScope, $location) {
     var body = $('body');
     $rootScope.$on("$stateChangeStart", function(event, next, current) {
-      console.log('route change start');
       body.removeClass('loaded');
     });
     $rootScope.$on("$stateChangeSuccess", function(event, next, current) {
-      console.log('route change success');
+      body.animate({ scrollTop: 0 }, 'slow');
       body.addClass('loaded');
     });
   });

@@ -1,0 +1,18 @@
+.profile {
+  @include respond-to(tablet) {
+    overflow: hidden;
+  }
+  .image-wrapper {
+    @include respond-to(tablet) {
+      float: left;
+      width: 50%;
+    }
+  }
+  .description {
+    @include respond-to(tablet) {
+      float: left;
+      width: 50%;
+      padding-left: $grid-gutter-width;
+    }
+  }
+}

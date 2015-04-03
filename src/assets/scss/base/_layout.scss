@@ -22,11 +22,11 @@ h1,h2,h3,h4,h5,h6 {
 a {
   text-decoration: none;
   color: $color-red;
-  transition: color ease-out .2s;
+  transition: color ease .15s;
 
   &:hover {
     text-decoration: none;
-    color: $color-lightRed;
+    color: $color-blue;
   }
 }
 
@@ -52,6 +52,7 @@ a {
 .content {
   padding: $grid-gutter-width 0;
   display: none;
+  min-height: 500px;
 
   .loaded & {
     display: block;
