@@ -1,9 +1,11 @@
 .movie-container {
   .video {
-    transition: height ease .2s;
+    transition: max-height ease .2s;
+    max-height: 0;
+    overflow: hidden;
 
-    &.hidden {
-      height: 0;
+    &.open {
+      max-height: 500px;
     }
   }
 

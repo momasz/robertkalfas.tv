@@ -51,4 +51,9 @@ a {
 
 .content {
   padding: $grid-gutter-width 0;
+  display: none;
+
+  .loaded & {
+    display: block;
+  }
 }

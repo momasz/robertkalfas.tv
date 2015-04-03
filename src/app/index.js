@@ -29,4 +29,14 @@ angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize
 
     $urlRouterProvider.otherwise('/');
   })
-;
+  .run(function($rootScope, $location) {
+    var body = $('body');
+    $rootScope.$on("$stateChangeStart", function(event, next, current) {
+      console.log('route change start');
+      body.removeClass('loaded');
+    });
+    $rootScope.$on("$stateChangeSuccess", function(event, next, current) {
+      console.log('route change success');
+      body.addClass('loaded');
+    });
+  });
