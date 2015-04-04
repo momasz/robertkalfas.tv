@@ -1,15 +1,54 @@
 .movie-container {
+  transition: max-height ease .2s;
+  max-height: 0;
+
+  &.open {
+    max-height: 1500px;
+  }
+
   .title {
     margin-bottom: $grid-gutter-width;
   }
 
-  .video {
-    transition: max-height ease .2s;
-    max-height: 0;
-    overflow: hidden;
+  .video-container {
+    margin-left: -$grid-gutter-width/2;
+    margin-right: -$grid-gutter-width/2;
 
-    &.open {
-      max-height: 500px;
+    @include respond-to(tablet) {
+      margin: 0;
+    }
+  }
+
+  .video-element {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+
+    .loader {
+      position: absolute;
+      display: block;
+      opacity: 1;
+      top: 50%;
+      left: 50%;
+      margin-top: -85px;
+      margin-left: -85px;
+      width: 150px;
+      height: 150px;
+    }
+
+    &.loaded .loader {
+      display: none;
+      opacity: 0;
+    }
+
+    .video iframe {
+      transition: all ease .3s;
+      opacity: 0;
+    }
+
+    &.loaded .video iframe {
+      opacity: 1;
     }
   }
 

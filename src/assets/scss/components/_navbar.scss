@@ -3,7 +3,7 @@
   border-bottom: $nav-border;
   margin-left: -$grid-gutter-width/2;
   margin-right: -$grid-gutter-width/2;
-  padding: 0 $grid-gutter-width;
+  padding: 0 $grid-gutter-width/2;
 
   @include respond-to(tablet) {
     margin-left: 0;
@@ -17,18 +17,65 @@
   }
 
   .menu {
-    float: right;
     list-style: none;
     padding: 0;
-    margin: $grid-gutter-width/2 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -$grid-gutter-width/2;
+    margin-right: -$grid-gutter-width/2;
+    max-height: 0;
+    transition: max-height ease .3s;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+
+    &.opened {
+      max-height: 200px;
+    }
+
+    @include respond-to(tablet) {
+      float: right;
+      margin: $grid-gutter-width/2 0;
+      width: auto;
+      overflow: visible;
+    }
 
     li {
-      float: left;
-      padding: $grid-gutter-width 0 $grid-gutter-width $grid-gutter-width;
+      padding: $grid-gutter-width/2;
+
+      @include respond-to(tablet) {
+        float: left;
+        padding: $grid-gutter-width 0 $grid-gutter-width $grid-gutter-width;
+      }
 
       &.active a {
         color: $color-blue;
       }
+    }
+  }
+
+  .toggle-button {
+    display: block;
+    padding: 3px 10px;
+    float: right;
+    cursor: pointer;
+    border: solid 1px lighten($color-red, 10%);
+    margin: 22px 0;
+
+    @include respond-to(tablet) {
+      display: none;
+    }
+
+    &:hover {
+      background: rgba($color-red, 0.2);
+    }
+
+    .divider {
+      background: $color-red;
+      width: 30px;
+      height: 1px;
+      display: block;
+      margin: 5px 0;
     }
   }
 }

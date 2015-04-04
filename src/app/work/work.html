@@ -1,21 +1,21 @@
 <div>
-  <div class="movie-container">
-    <h1 ng-if="movie" class="title" ng-bind-html="movie.title"></h1>
-    <div
-      ng-class="{ open: movie }"
-      class="video">
-      <div class="video-wrapper">
-        <iframe
-          ng-if="movie"
-          ng-src="{{ trustSrc(movie.src) }}"
-          frameborder="0"
-          webkitallowfullscreen
-          mozallowfullscreen
-          allowfullscreen>
-        </iframe>
+  <div
+    ng-if="movie"
+    ng-class="{ open: movie }"
+    class="movie-container">
+    <h1 class="title" ng-bind-html="movie.title"></h1>
+    <div class="video-container">
+      <div class="video-element">
+        <div class="loader"></div>
+        <div class="video-wrapper">
+          <custom-video
+            class="video"
+            source="movie.src">
+          </custom-video>
+        </div>
       </div>
     </div>
-    <div ng-if="movie" class="description" ng-bind-html="movie.description"></div>
+    <div class="description" ng-bind-html="movie.description"></div>
   </div>
 
   <ul class="movies-container">

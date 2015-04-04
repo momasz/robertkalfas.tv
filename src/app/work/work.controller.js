@@ -2,10 +2,6 @@
 
 angular.module('robertkalfas')
   .controller('WorkCtrl', function ($scope, Items, movie, $sce, Config) {
-    $scope.trustSrc = function (src) {
-      return $sce.trustAsResourceUrl(src);
-    };
-
     if (typeof $scope.movies === 'undefined' || $scope.movies.length === 0) {
       $scope.movies = Items.query();
     }
@@ -25,7 +21,7 @@ angular.module('robertkalfas')
       var videoUrl = Config.vimeoPlayerUrl + movie + '?title=0&byline=0&portrait=0';
 
       $scope.movie = {
-        src: videoUrl,
+        src: $sce.trustAsResourceUrl(videoUrl),
         title: selected.title,
         description: selected.description
       };

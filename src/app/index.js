@@ -3,11 +3,6 @@
 angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'mm.foundation', 'angular-cache'])
   .config(function ($stateProvider, $urlRouterProvider, CacheFactoryProvider) {
     $stateProvider
-      .state('home', {
-        url: '/',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainCtrl'
-      })
       .state('work', {
         url: '/work/:movie',
         templateUrl: 'app/work/work.html',
@@ -27,7 +22,7 @@ angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize
         controller: 'ContactCtrl'
       });
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/work/');
 
     angular.extend(CacheFactoryProvider.defaults, { maxAge: 15 * 60 * 1000 });
   })
@@ -35,11 +30,11 @@ angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize
     var body = $('body');
 
     $rootScope.$on('$stateChangeStart', function() {
+      body.animate({ scrollTop: 0 }, 'slow');
       body.removeClass('loaded');
     });
 
     $rootScope.$on('$stateChangeSuccess', function() {
-      body.animate({ scrollTop: 0 }, 'slow');
       body.addClass('loaded');
     });
 

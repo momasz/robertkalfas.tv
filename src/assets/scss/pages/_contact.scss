@@ -3,9 +3,12 @@
     overflow: hidden;
   }
   .image-wrapper {
+    margin-bottom: $grid-gutter-width;
+
     @include respond-to(tablet) {
       float: left;
       width: 50%;
+      margin-bottom: 0;
     }
   }
   .description {

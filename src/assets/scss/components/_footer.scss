@@ -3,11 +3,25 @@
   margin-left: -$grid-gutter-width/2;
   margin-right: -$grid-gutter-width/2;
   padding: $grid-gutter-width $grid-gutter-width/2;
+  overflow: hidden;
 
   @include respond-to(tablet) {
     margin-left: 0;
     margin-right: 0;
     padding: $grid-gutter-width 0;
+  }
+
+  .social {
+    float: right;
+    margin-right: $grid-gutter-width;
+
+    [class*="icon"] {
+      font-size: 20px;
+    }
+  }
+
+  .credits {
+    float: left;
   }
 
   .heart-icon {
