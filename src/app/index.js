@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'mm.foundation'])
-  .config(function ($stateProvider, $urlRouterProvider) {
+angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'mm.foundation', 'angular-cache'])
+  .config(function ($stateProvider, $urlRouterProvider, CacheFactoryProvider) {
     $stateProvider
       .state('home', {
         url: '/',
@@ -28,14 +28,24 @@ angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize
       });
 
     $urlRouterProvider.otherwise('/');
+
+    angular.extend(CacheFactoryProvider.defaults, { maxAge: 15 * 60 * 1000 });
   })
-  .run(function($rootScope, $location) {
+  .run(function($rootScope, $http, CacheFactory) {
     var body = $('body');
-    $rootScope.$on("$stateChangeStart", function(event, next, current) {
+
+    $rootScope.$on('$stateChangeStart', function() {
       body.removeClass('loaded');
     });
-    $rootScope.$on("$stateChangeSuccess", function(event, next, current) {
+
+    $rootScope.$on('$stateChangeSuccess', function() {
       body.animate({ scrollTop: 0 }, 'slow');
       body.addClass('loaded');
+    });
+
+    $http.defaults.cache = CacheFactory('defaultCache', {
+      maxAge: 60 * 1000, // Items added to this cache expire after 15 minutes
+      cacheFlushInterval: 60 * 60 * 1000, // This cache will clear itself every hour
+      deleteOnExpire: 'aggressive' // Items will be deleted from this cache when they expire
     });
   });

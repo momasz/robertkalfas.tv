@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('robertkalfas')
-  .controller('WorkCtrl', function ($scope, Items, movie, $sce) {
+  .controller('WorkCtrl', function ($scope, Items, movie, $sce, Config) {
     $scope.trustSrc = function (src) {
       return $sce.trustAsResourceUrl(src);
     };
@@ -22,7 +22,7 @@ angular.module('robertkalfas')
     var selected = checkId();
 
     if (movie && selected) {
-      var videoUrl = "https://player.vimeo.com/video/" + movie + "?title=0&byline=0&portrait=0";
+      var videoUrl = Config.vimeoPlayerUrl + movie + '?title=0&byline=0&portrait=0';
 
       $scope.movie = {
         src: videoUrl,

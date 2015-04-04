@@ -1,15 +1,14 @@
 'use strict';
 
 angular.module('robertkalfas')
-  .factory('Items', ['$q', '$http', 'Config', function ($q, $http, Config) {
-    var config = Config;
-
+  .factory('Items', ['$q', '$http', 'Config', 'CacheFactory', function ($q, $http, Config, CacheFactory) {
     // expose Items API object
     return {
       /**
        * main data object
        */
       data: {},
+      config: {},
 
       /**
        * fetch data from static file or cache object
@@ -19,48 +18,60 @@ angular.module('robertkalfas')
        */
       fetch: function (field) {
         var items = this;
-        var cached = null; //items.get(field);
+        var defer = $q.defer();
+        var movies = [];
 
-        if (cached) {
-          items.data = cached;
-          return true;
-        }
-        else {
-          var defer = $q.defer();
-          var movies;
+        $http.get(Config.sourceUrl, {
+          cache: CacheFactory.get('config')
+        }).success(function (data) {
+          items.config = data;
 
-          $http.get('http://vimeo.com/api/v2/robertkalfas/videos.json').success(function (data) {
-            movies = data;
+          var displayed = items.config;
+          var users = []; // vimeo users we want to display
 
-            $http.get('http://vimeo.com/api/v2/studiopigeon/videos.json').success(function (data) {
-              items.data = movies.concat(data);
-              defer.resolve();
+          for (var i = 0, len = displayed.users.length; i < len; i++) {
+            var result = $http.get(Config.apiUrl + displayed.users[i] + Config.apiSource, {
+              cache: CacheFactory.get(field)
             });
-            //items.cache(data, field);
+
+            users.push(result);
+          }
+
+          $q.all(users).then(function (result) {
+            angular.forEach(result, function(response) {
+              movies = movies.concat(response.data);
+            });
+
+            movies = items.filter(movies);
+            items.data = movies;
+
+            defer.resolve();
           });
+        });
 
-          return defer.promise;
+        return defer.promise;
+      },
+
+      /**
+       * filter data from unwanted ids
+       *
+       * @param data
+       * @returns {Array}
+       */
+      filter: function (data) {
+        var tmp = [];
+
+        for (var i = 0, len = data.length; i < len; i++) {
+          var el = data[i];
+
+          for (var j = 0, lenIds = this.config.ids.length; j < lenIds; j++) {
+            if (this.config.ids[j] === el.id) {
+              tmp.push(el);
+            }
+          }
         }
-      },
 
-      /**
-       * cached data into the localStorage database
-       *
-       * @param data - data to write to cache
-       * @param field - cache field
-       */
-      cache: function (data, field) {
-        localStorage[field] = angular.toJson(data);
-      },
-
-      /**
-       * get data from cached localStorage database
-       *
-       * @param field - cache field
-       * @returns {Object|Array|string|number|*}
-       */
-      get: function (field) {
-        return angular.fromJson(localStorage[field]);
+        return tmp;
       },
 
       /**

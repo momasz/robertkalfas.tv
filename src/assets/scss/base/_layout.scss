@@ -37,6 +37,15 @@ a {
   padding-bottom: 56.25%;
   overflow: hidden;
 
+  .image {
+    opacity: 0;
+    transition: opacity ease .7s;
+
+    &.loaded {
+      opacity: 1;
+    }
+  }
+
   iframe,
   img {
     width: 100%;

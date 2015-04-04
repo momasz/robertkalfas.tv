@@ -14,9 +14,7 @@
         </iframe>
       </div>
     </div>
-    <div ng-if="movie" class="description">
-      {{ movie.description }}
-    </div>
+    <div ng-if="movie" class="description" ng-bind-html="movie.description"></div>
   </div>
 
   <ul class="movies-container">
@@ -25,8 +23,13 @@
       ng-repeat="movie in movies">
       <a ui-sref="work({ movie: movie.id })" title="">
         <div class="image-wrapper">
-          <img ng-src="{{ movie.thumbnail_large }}" alt="">
-          <span class="description">{{ movie.title }}</span>
+          <custom-image
+            class="image"
+            source="movie.thumbnail_large"
+            title="movie.title"
+            >
+          </custom-image>
+          <span class="description" ng-bind-html="movie.title"></span>
         </div>
       </a>
     </li>

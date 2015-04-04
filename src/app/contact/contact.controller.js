@@ -1,6 +1,8 @@
 'use strict';
 
 angular.module('robertkalfas')
-  .controller('ContactCtrl', function ($scope) {
-
+  .controller('ContactCtrl', function () {
+    $('img').load(function () {
+      $(this).addClass('loaded');
+    });
   });
