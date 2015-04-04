@@ -26,6 +26,7 @@ angular.module('robertkalfas')
 
       $scope.movie = {
         src: videoUrl,
+        title: selected.title,
         description: selected.description
       };
     }

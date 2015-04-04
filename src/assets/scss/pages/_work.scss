@@ -1,4 +1,8 @@
 .movie-container {
+  .title {
+    margin-bottom: $grid-gutter-width;
+  }
+
   .video {
     transition: max-height ease .2s;
     max-height: 0;
@@ -38,24 +42,52 @@
       width: 100% * 1/3;
     }
 
-    .description {
-      transition: opacity ease .2s, background ease .2s;
+    .meta-wrapper {
+      transition: opacity ease .25s, background ease .25s;
       opacity: 0;
       background: transparent;
-      text-align: center;
       position: absolute;
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
-      font-size: 32px;
-      line-height: 100%;
-      color: $color-white;
+    }
+
+    .meta {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      padding: 0 15px;
+
+      .title,
+      .description {
+        display: block;
+      }
+
+      .title {
+        @include text-overflow(24px, 32px, 1);
+        color: $color-red;
+        font-weight: 500;
+        &::before {
+          content: '- '
+        }
+        &::after {
+          content: ' -'
+        }
+      }
+
+      .description {
+        @include text-overflow(16px, 16px, 3);
+        color: $color-white;
+      }
     }
 
     &:hover {
-      .description {
-        background: rgba($color-red,0.5);
+      .meta-wrapper {
+        background: rgba($color-black, .65);
         opacity: 1;
       }
     }

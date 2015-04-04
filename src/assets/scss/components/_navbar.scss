@@ -25,6 +25,10 @@
     li {
       float: left;
       padding: $grid-gutter-width 0 $grid-gutter-width $grid-gutter-width;
+
+      &.active a {
+        color: $color-blue;
+      }
     }
   }
 }

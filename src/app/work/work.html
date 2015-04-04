@@ -1,5 +1,6 @@
 <div>
   <div class="movie-container">
+    <h1 ng-if="movie" class="title" ng-bind-html="movie.title"></h1>
     <div
       ng-class="{ open: movie }"
       class="video">
@@ -29,7 +30,12 @@
             title="movie.title"
             >
           </custom-image>
-          <span class="description" ng-bind-html="movie.title"></span>
+          <div class="meta-wrapper">
+            <div class="meta">
+              <span class="title" ng-bind-html="movie.title"></span>
+              <span class="description" ng-bind-html="movie.description"></span>
+            </div>
+          </div>
         </div>
       </a>
     </li>
