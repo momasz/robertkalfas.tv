@@ -60,10 +60,13 @@ a {
   }
 }
 
+
 .content {
   padding: $grid-gutter-width/2 0;
   display: none;
   min-height: 500px;
+  overflow: hidden;
+  position: relative;
 
   @include respond-to(tablet) {
     padding: $grid-gutter-width 0;
