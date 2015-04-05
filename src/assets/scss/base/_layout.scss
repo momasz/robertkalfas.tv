@@ -60,6 +60,11 @@ a {
   }
 }
 
+.content-wrapper {
+  @include respond-to(tablet) {
+    min-height: 500px;
+  }
+}
 
 .content {
   padding: $grid-gutter-width/2 0;
@@ -68,7 +73,6 @@ a {
 
   @include respond-to(tablet) {
     padding: $grid-gutter-width 0;
-    min-height: 500px;
   }
 
   .loaded & {

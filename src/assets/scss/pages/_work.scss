@@ -26,15 +26,8 @@
     position: relative;
 
     .loader {
-      position: absolute;
       display: block;
       opacity: 1;
-      top: 50%;
-      left: 50%;
-      margin-top: -85px;
-      margin-left: -85px;
-      width: 150px;
-      height: 150px;
     }
 
     &.loaded .loader {

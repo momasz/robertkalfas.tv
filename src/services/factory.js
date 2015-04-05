@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('robertkalfas')
-  .factory('Items', ['$q', '$http', 'Config', 'CacheFactory', function ($q, $http, Config, CacheFactory) {
+  .factory('Items', ['$q', '$http', 'Config', 'CacheFactory', '$filter', function ($q, $http, Config, CacheFactory, $filter) {
     // expose Items API object
     return {
       /**
@@ -27,22 +27,20 @@ angular.module('robertkalfas')
           items.config = data;
 
           var displayed = items.config;
-          var users = []; // vimeo users we want to display
+          var accounts = []; // vimeo accounts we want to display
 
-          for (var i = 0, len = displayed.videos.length; i < len; i++) {
-            var result = $http.get(Config.apiSimpleUrl + displayed.videos[i] + '.json', {
+          for (var j = 0, lenAccounts = displayed.accounts.length; j < lenAccounts; j++) {
+            accounts.push($http.get(Config.apiUrl + 'users/' + displayed.accounts[j] + '/videos', {
               cache: CacheFactory.get(field)
-            });
-
-            users.push(result);
+            }));
           }
 
-          $q.all(users).then(function (result) {
+          $q.all(accounts).then(function (result) {
             angular.forEach(result, function(response) {
-              movies = movies.concat(response.data);
+              movies = movies.concat(response.data.data);
             });
 
-            //movies = items.filter(movies);
+            movies = items.filter(movies);
             items.data = movies;
 
             defer.resolve();
@@ -64,8 +62,8 @@ angular.module('robertkalfas')
         for (var i = 0, len = data.length; i < len; i++) {
           var el = data[i];
 
-          for (var j = 0, lenIds = this.config.ids.length; j < lenIds; j++) {
-            if (this.config.ids[j] === el.id) {
+          for (var j = 0, lenIds = this.config.videos.length; j < lenIds; j++) {
+            if (this.config.videos[j] === $filter('idMaker')(el.uri)) {
               tmp.push(el);
             }
           }
@@ -83,4 +81,7 @@ angular.module('robertkalfas')
         return this.data;
       }
     };
-  }]);
+  }])
+  .run(function($http, Config) {
+    $http.defaults.headers.common.Authorization = 'Bearer ' + Config.apiToken;
+  });

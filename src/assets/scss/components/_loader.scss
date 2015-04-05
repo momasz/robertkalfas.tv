@@ -1,11 +1,13 @@
 .loader {
+  position: absolute;
   display: block;
-  position: relative;
-  left: 50%;
+  opacity: 1;
   top: 50%;
-  width: 100px;
-  height: 100px;
-  margin: 25px 0 25px -50px;
+  left: 50%;
+  margin-top: -85px;
+  margin-left: -85px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #3498db;
