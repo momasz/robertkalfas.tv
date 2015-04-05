@@ -29,8 +29,8 @@ angular.module('robertkalfas')
           var displayed = items.config;
           var users = []; // vimeo users we want to display
 
-          for (var i = 0, len = displayed.users.length; i < len; i++) {
-            var result = $http.get(Config.apiUrl + displayed.users[i] + Config.apiSource, {
+          for (var i = 0, len = displayed.videos.length; i < len; i++) {
+            var result = $http.get(Config.apiSimpleUrl + displayed.videos[i] + '.json', {
               cache: CacheFactory.get(field)
             });
 
@@ -42,7 +42,7 @@ angular.module('robertkalfas')
               movies = movies.concat(response.data);
             });
 
-            movies = items.filter(movies);
+            //movies = items.filter(movies);
             items.data = movies;
 
             defer.resolve();
