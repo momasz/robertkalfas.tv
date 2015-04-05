@@ -1,7 +1,11 @@
 {
   "accounts": [
-    "robertkalfas",
-    "studiopigeon"
+    {
+      "name": "robertkalfas"
+    },
+    {
+      "name": "studiopigeon"
+    }
   ],
   "videos": [
     86613124,

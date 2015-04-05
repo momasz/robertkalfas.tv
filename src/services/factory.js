@@ -9,6 +9,7 @@ angular.module('robertkalfas')
        */
       data: {},
       config: {},
+      missing: [],
 
       /**
        * fetch data from static file or cache object
@@ -19,35 +20,54 @@ angular.module('robertkalfas')
       fetch: function (field) {
         var items = this;
         var defer = $q.defer();
-        var movies = [];
 
-        $http.get(Config.sourceUrl, {
-          cache: CacheFactory.get('config')
-        }).success(function (data) {
+        items.sync(Config.sourceUrl, 'config').success(function (data) {
           items.config = data;
 
-          var displayed = items.config;
-          var accounts = []; // vimeo accounts we want to display
+          var accounts = items.config.accounts;
+          var videos = []; // vimeo accounts we want to display
 
-          for (var j = 0, lenAccounts = displayed.accounts.length; j < lenAccounts; j++) {
-            accounts.push($http.get(Config.apiUrl + 'users/' + displayed.accounts[j] + '/videos', {
-              cache: CacheFactory.get(field)
-            }));
+          for (var j = 0, lenAccounts = accounts.length; j < lenAccounts; j++) {
+            videos.push(items.sync(Config.apiUrl + 'users/' + accounts[j].name + '/videos?per_page=50', field));
           }
 
-          $q.all(accounts).then(function (result) {
-            angular.forEach(result, function(response) {
-              movies = movies.concat(response.data.data);
-            });
-
-            movies = items.filter(movies);
-            items.data = movies;
-
-            defer.resolve();
+          items.syncAll(videos, function () {
+              defer.resolve();
           });
         });
 
         return defer.promise;
+      },
+
+      sync: function (url, field) {
+        return $http.get(url, {
+          cache: CacheFactory.get(field)
+        })
+      },
+
+      syncAll: function (data, success) {
+        var movies = [];
+        var items = this;
+
+        $q.all(data).then(function (result) {
+          angular.forEach(result, function(response, key) {
+            var data = response.data;
+
+            if (!items.config.accounts[key].pages) {
+              items.config.accounts[key].pages = Math.ceil(data.total / data.per_page);
+            }
+
+            movies = movies.concat(data.data);
+          });
+
+          items.data = items.config.videos.length > 0 ? items.filter(movies) : movies;
+
+          if (items.data.length < Config.perPage) {
+            // todo: create API calls for missing elements (when they are on the next page or sth)
+          }
+
+          success();
+        })
       },
 
       /**
@@ -63,8 +83,11 @@ angular.module('robertkalfas')
           var el = data[i];
 
           for (var j = 0, lenIds = this.config.videos.length; j < lenIds; j++) {
-            if (this.config.videos[j] === $filter('idMaker')(el.uri)) {
+            var id = $filter('idMaker')(el.uri);
+            if (this.config.videos[j] === id) {
               tmp.push(el);
+            } else {
+              this.missing.push(id);
             }
           }
         }
