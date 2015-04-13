@@ -4,6 +4,12 @@
   }
   .image-wrapper {
     margin-bottom: $grid-gutter-width;
+    padding-bottom: 50%;
+    transition: all ease .3s;
+
+    img {
+      top: -90px;
+    }
 
     @include respond-to(tablet) {
       float: left;
@@ -15,7 +21,7 @@
     @include respond-to(tablet) {
       float: left;
       width: 50%;
-      padding-left: $grid-gutter-width;
+      padding-right: $grid-gutter-width;
     }
   }
 }

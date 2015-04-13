@@ -1,4 +1,5 @@
 .nav-bar {
+  position: relative;
   overflow: hidden;
   border-bottom: $nav-border;
   margin-left: -$grid-gutter-width/2;
@@ -13,7 +14,7 @@
 
   .title {
     float: left;
-    margin: $grid-gutter-width 0;
+    margin: $grid-gutter-width 0 0 (-$grid-gutter-width);
   }
 
   .menu {
@@ -34,7 +35,9 @@
     }
 
     @include respond-to(tablet) {
-      float: right;
+      position: absolute;
+      bottom: $nav-height;
+      right: 0;
       margin: $grid-gutter-width/2 0;
       width: auto;
       overflow: visible;
