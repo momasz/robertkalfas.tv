@@ -28,20 +28,20 @@
     .loader {
       display: block;
       opacity: 1;
-    }
 
-    &.loaded .loader {
-      display: none;
-      opacity: 0;
+      .loaded & {
+        display: none;
+        opacity: 0;
+      }
     }
 
     .video iframe {
       transition: all ease .3s;
       opacity: 0;
-    }
 
-    &.loaded .video iframe {
-      opacity: 1;
+      .loaded & {
+        opacity: 1;
+      }
     }
   }
 

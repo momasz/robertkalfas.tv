@@ -1,7 +1,6 @@
 .nav-bar {
   position: relative;
   overflow: hidden;
-  border-bottom: $nav-border;
   margin-left: -$grid-gutter-width/2;
   margin-right: -$grid-gutter-width/2;
   padding: 0 $grid-gutter-width/2;
@@ -12,8 +11,39 @@
     padding: $grid-gutter-width 0 0;
   }
 
+  &::before,
+  &::after {
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    content: '';
+  }
+
+  &::before {
+    background: $color-lightGrey;
+    left: 0;
+    right: 0;
+  }
+
+  &::after {
+    width: 10%;
+    background: $color-red;
+
+    -webkit-animation: slide 1s linear infinite;
+    animation: slide 1s linear infinite;
+  }
+
+  .loaded &::after {
+    content: none;
+  }
+
   .title {
     float: left;
+    transition: opacity ease .3s;
+
+    &:hover {
+      opacity: 0.75;
+    }
 
     img {
       max-width: 100px;
@@ -64,6 +94,7 @@
         color: $color-highlight;
       }
 
+      &:hover a,
       &.active a {
         color: $color-red;
       }

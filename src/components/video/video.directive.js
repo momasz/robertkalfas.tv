@@ -9,9 +9,9 @@ angular.module('robertkalfas')
         source: '='
       },
       link: function ($scope, $el) {
-        var video = $el.parent().parent();
+        var body = $('body');
         $el.children('iframe').load(function () {
-          video.addClass('loaded');
+          body.addClass('loaded');
         })
       }
     };

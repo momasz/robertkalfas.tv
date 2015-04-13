@@ -10,7 +10,7 @@
   height: $loader-size;
   border-radius: 50%;
   border: $loader-border-width solid transparent;
-  border-top-color: $color-red;
+  //border-top-color: $color-red;
   z-index: $loader-zIndex;
 
   -webkit-animation: spin 2s linear infinite;
@@ -47,7 +47,7 @@
     left: $loader-border-gutter*2;
     right: $loader-border-gutter*2;
     bottom: $loader-border-gutter*2;
-    border-top-color: $color-lightGrey;
+    border-top-color: $color-red;
 
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
