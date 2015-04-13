@@ -9,13 +9,23 @@ $grid-gutter-width: 20px;
 // COLORS
 // ------------------------------------
 $color-red: rgb(251,16,30);
-$color-blue: rgb(0,0,0);
+$color-highlight: rgb(0,0,0);
 $color-lightRed: rgb(232,113,98);
 $color-lightGrey: rgb(210,210,210);
 $color-grey: rgb(95,94,93);
 $color-pink: rgb(242,116,144);
 $color-white: rgb(255,255,255);
 $color-black: rgb(0,0,0);
-
+// ------------------------------------
+// NAVBAR
+// ------------------------------------
 $nav-border: solid 1px $color-lightGrey;
-$nav-height: 60px;
+$nav-height: 45px;
+$nav-logo-height: 185px;
+// ------------------------------------
+// LOADER
+// ------------------------------------
+$loader-zIndex: 10;
+$loader-size: 150px;
+$loader-border-width: 1px;
+$loader-border-gutter: 20px;

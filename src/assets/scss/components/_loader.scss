@@ -4,16 +4,17 @@
   opacity: 1;
   top: 50%;
   left: 50%;
-  margin-top: -85px;
-  margin-left: -85px;
-  width: 150px;
-  height: 150px;
+  margin-top: -$loader-size/2;
+  margin-left: -$loader-size/2;
+  width: $loader-size;
+  height: $loader-size;
   border-radius: 50%;
-  border: 3px solid transparent;
-  border-top-color: #3498db;
+  border: $loader-border-width solid transparent;
+  border-top-color: $color-red;
+  z-index: $loader-zIndex;
 
-  -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 
   .loaded & {
     display: none;
@@ -22,59 +23,33 @@
     transition: all 0.3s ease-out;
   }
 
-  &::before {
-    content: "";
+  &::before,
+  &::after {
+    content: '';
     position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
     border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #e74c3c;
+    border: $loader-border-width solid transparent;
+  }
 
-    -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-    animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+  &::before {
+    top: $loader-border-gutter;
+    left: $loader-border-gutter;
+    right: $loader-border-gutter;
+    bottom: $loader-border-gutter;
+    border-top-color: $color-lightGrey;
+
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
   }
 
   &::after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #f9c922;
+    top: $loader-border-gutter*2;
+    left: $loader-border-gutter*2;
+    right: $loader-border-gutter*2;
+    bottom: $loader-border-gutter*2;
+    border-top-color: $color-lightGrey;
 
-    -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-    animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-  }
-}
-
-@-webkit-keyframes spin {
-  0%   {
-    -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(0deg);  /* IE 9 */
-    transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
-  }
-  100% {
-    -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(360deg);  /* IE 9 */
-    transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
-  }
-}
-
-@keyframes spin {
-  0%   {
-    -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(0deg);  /* IE 9 */
-    transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
-  }
-  100% {
-    -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(360deg);  /* IE 9 */
-    transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
   }
 }
