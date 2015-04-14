@@ -35,6 +35,14 @@
       }
     }
 
+    .video {
+      display: none;
+
+      .loaded & {
+        display: block;
+      }
+    }
+
     .video iframe {
       transition: all ease .3s;
       opacity: 0;
@@ -124,4 +132,8 @@
       }
     }
   }
+}
+
+.video-view .content-wrapper > .loader {
+  display: none;
 }

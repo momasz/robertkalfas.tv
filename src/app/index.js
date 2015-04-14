@@ -31,7 +31,7 @@ angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize
 
     $rootScope.$on('$stateChangeStart', function() {
       body.animate({ scrollTop: 0 }, 'slow');
-      body.removeClass('loaded');
+      body.removeClass();
     });
 
     $rootScope.$on('$stateChangeSuccess', function() {

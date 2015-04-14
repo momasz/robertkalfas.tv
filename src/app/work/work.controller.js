@@ -22,7 +22,10 @@ angular.module('robertkalfas')
     var selected = checkId();
 
     if (movie && selected) {
-      var videoUrl = Config.playerUrl + movie + '?title=0&byline=0&portrait=0';
+      var videoUrl = Config.playerUrl + movie + '?color=fb101e&title=0&byline=0&portrait=0';
+      var body = $('body');
+
+      body.addClass('video-view');
 
       $scope.movie = {
         src: $sce.trustAsResourceUrl(videoUrl),

@@ -67,7 +67,6 @@ a {
 
 .content {
   padding: $grid-gutter-width/2 0;
-  display: none;
   margin-bottom: $grid-gutter-width;
 
   @include respond-to(tablet) {

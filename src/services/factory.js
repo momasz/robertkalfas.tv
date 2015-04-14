@@ -42,7 +42,7 @@ angular.module('robertkalfas')
       sync: function (url, field) {
         return $http.get(url, {
           cache: CacheFactory.get(field)
-        })
+        });
       },
 
       syncAll: function (data, success) {
@@ -67,7 +67,7 @@ angular.module('robertkalfas')
           }
 
           success();
-        })
+        });
       },
 
       /**
