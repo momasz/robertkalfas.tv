@@ -3,19 +3,42 @@
     overflow: hidden;
   }
   .image-wrapper {
-    margin-bottom: $grid-gutter-width;
+    margin: $grid-gutter-width auto;
+    width: 50%;
+    padding-bottom: 50%;
 
     @include respond-to(tablet) {
-      float: left;
-      width: 50%;
+      float: right;
       margin-bottom: 0;
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      top: 1px;
+      bottom: 1px;
+      left: 1px;
+      right: 1px;
+      border-radius: 50%;
+      border: solid 1px transparent;
+      border-bottom-color: $color-red;
+    }
+
+    &:hover::after {
+      -webkit-animation: spin 1.5s linear infinite;
+      animation: spin 1.5s linear infinite;
+    }
+
+    img {
+      border-radius: 50%;
+      transition: border ease .3s;
     }
   }
   .description {
     @include respond-to(tablet) {
       float: left;
       width: 50%;
-      padding-left: $grid-gutter-width;
+      padding-right: $grid-gutter-width;
     }
   }
 }

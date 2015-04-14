@@ -27,7 +27,7 @@ a {
 
   &:hover {
     text-decoration: none;
-    color: $color-blue;
+    color: $color-highlight;
   }
 }
 
@@ -60,18 +60,33 @@ a {
   }
 }
 
+.content-wrapper {
+  position: relative;
+  min-height: 500px;
+}
 
 .content {
   padding: $grid-gutter-width/2 0;
-  display: none;
   margin-bottom: $grid-gutter-width;
 
   @include respond-to(tablet) {
     padding: $grid-gutter-width 0;
-    min-height: 500px;
   }
 
   .loaded & {
     display: block;
   }
+}
+
+blockquote {
+  margin: 0;
+
+  &::before,
+  &::after {
+    content: '"';
+  }
+}
+
+strong {
+  font-weight: 600;
 }

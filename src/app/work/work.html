@@ -22,17 +22,17 @@
     <li
       class="movie"
       ng-repeat="movie in movies">
-      <a ui-sref="work({ movie: movie.id })" title="">
+      <a ui-sref="work({ movie: idMaker(movie.uri) })" title="">
         <div class="image-wrapper">
           <custom-image
             class="image"
-            source="movie.thumbnail_large"
-            title="movie.title"
+            source="movie.pictures[2].link"
+            title="movie.name"
             >
           </custom-image>
           <div class="meta-wrapper">
             <div class="meta">
-              <span class="title" ng-bind-html="movie.title"></span>
+              <span class="title" ng-bind-html="movie.name"></span>
               <span class="description" ng-bind-html="movie.description"></span>
             </div>
           </div>

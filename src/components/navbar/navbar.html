@@ -1,5 +1,9 @@
 <nav class="nav-bar" ng-controller="NavbarCtrl">
-  <h1 class="title"><a ui-sref="work({movie:''})">Robert Kalfas</a></h1>
+  <h1 class="title">
+    <a ui-sref="work({movie:''})">
+      <img src="assets/images/logo.jpg" alt="Robert Kalfas" />
+    </a>
+  </h1>
 
   <span class="toggle-button">
       <span class="divider"></span>
@@ -9,7 +13,7 @@
 
   <ul class="menu">
     <li ui-sref-active="active"><a ui-sref="work({movie:''})">Work</a></li>
-    <li ui-sref-active="active"><a href="//jestwysoko.com" target="_blank">Blog</a></li>
+    <li ui-sref-active="active"><a href="//rkmotiongraphic.tumblr.com" target="_blank">Blog</a></li>
     <li ui-sref-active="active"><a ui-sref="contact">Contact</a></li>
   </ul>
 </nav>

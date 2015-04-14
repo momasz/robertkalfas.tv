@@ -3,7 +3,7 @@
   max-height: 0;
 
   &.open {
-    max-height: 1500px;
+    max-height: 15000px;
   }
 
   .title {
@@ -26,29 +26,30 @@
     position: relative;
 
     .loader {
-      position: absolute;
       display: block;
       opacity: 1;
-      top: 50%;
-      left: 50%;
-      margin-top: -85px;
-      margin-left: -85px;
-      width: 150px;
-      height: 150px;
+
+      .loaded & {
+        display: none;
+        opacity: 0;
+      }
     }
 
-    &.loaded .loader {
+    .video {
       display: none;
-      opacity: 0;
+
+      .loaded & {
+        display: block;
+      }
     }
 
     .video iframe {
       transition: all ease .3s;
       opacity: 0;
-    }
 
-    &.loaded .video iframe {
-      opacity: 1;
+      .loaded & {
+        opacity: 1;
+      }
     }
   }
 
@@ -131,4 +132,8 @@
       }
     }
   }
+}
+
+.video-view .content-wrapper > .loader {
+  display: none;
 }

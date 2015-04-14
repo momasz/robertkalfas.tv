@@ -13,7 +13,6 @@
 
   .social {
     float: right;
-    margin-right: $grid-gutter-width;
 
     [class*="icon"] {
       font-size: 20px;
@@ -25,6 +24,6 @@
   }
 
   .heart-icon {
-    color: $color-pink;
+    color: $color-red;
   }
 }
