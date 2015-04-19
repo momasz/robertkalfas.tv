@@ -84,7 +84,7 @@ angular.module('robertkalfas')
 
           for (var j = 0, lenIds = this.config.videos.length; j < lenIds; j++) {
             var id = $filter('idMaker')(el.uri);
-            if (this.config.videos[j] === id) {
+            if (parseInt(this.config.videos[j]) === id) {
               tmp.push(el);
             } else {
               this.missing.push(id);
