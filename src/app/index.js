@@ -20,6 +20,10 @@ angular.module('robertkalfas', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize
         url: '/contact',
         templateUrl: 'app/contact/contact.html',
         controller: 'ContactCtrl'
+      })
+      .state('admin', {
+        url: '/admin',
+        templateUrl: 'app/admin/admin.html'
       });
 
     $urlRouterProvider.otherwise('/work/');
