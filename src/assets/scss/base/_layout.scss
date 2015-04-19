@@ -78,6 +78,14 @@ a {
   }
 }
 
+.page {
+  opacity: 0;
+
+  .loaded & {
+    opacity: 1;
+  }
+}
+
 blockquote {
   margin: 0;
 
@@ -89,4 +97,10 @@ blockquote {
 
 strong {
   font-weight: 600;
+}
+
+#admin-page {
+  width: 100%;
+  min-height: 750px;
+  border: 0;
 }
