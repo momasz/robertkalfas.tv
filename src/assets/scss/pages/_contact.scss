@@ -31,7 +31,7 @@
 
     img {
       border-radius: 50%;
-      transition: border ease .3s;
+      transition: border ease .3s, opacity ease .3s;
     }
   }
   .description {

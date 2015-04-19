@@ -78,6 +78,14 @@ a {
   }
 }
 
+.page {
+  opacity: 0;
+
+  .loaded & {
+    opacity: 1;
+  }
+}
+
 blockquote {
   margin: 0;
 
