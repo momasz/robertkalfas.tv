@@ -135,19 +135,39 @@
       }
 
       .video-view & {
+        .loaded .meta-wrapper {
+          background: rgba($color-black, .5);
+          opacity: 1;
+        }
         .meta {
           @include respond-to(web) {
+            transition: ease .3s;
             padding: 0 50px;
           }
         }
         .title {
           @include respond-to(web) {
-            @include text-overflow(40px, 60px, 1);
+            @include text-overflow(45px, 65px, 1);
+            font-weight: bold;
+            color: $color-white;
           }
         }
         .description {
           @include respond-to(web) {
-            @include text-overflow(24px, 25px, 3);
+            display: none;
+            opacity: 0;
+            transition: opacity ease .3s;
+            @include text-overflow(24px, 25px, 5);
+          }
+        }
+
+        &:hover {
+          .meta-wrapper {
+            background: rgba($color-black, .75);
+          }
+          .description {
+            display: block;
+            opacity: 1;
           }
         }
       }
