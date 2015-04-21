@@ -11,6 +11,7 @@ angular.module('robertkalfas')
       },
       link: function ($scope, $el) {
        $el.children('img').load(function () {
+         $el.parent().addClass('loaded');
          $el.addClass('loaded');
        });
       }
