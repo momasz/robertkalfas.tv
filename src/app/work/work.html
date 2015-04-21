@@ -21,12 +21,13 @@
   <ul class="movies-container">
     <li
       class="movie"
-      ng-repeat="movie in movies">
+      ng-repeat="movie in movies"
+      ng-class="{ highlight: movie.highlighted }">
       <a ui-sref="work({ movie: idMaker(movie.uri) })" title="">
         <div class="image-wrapper">
           <custom-image
             class="image"
-            source="movie.pictures[2].link"
+            source="movie.pictures[1].link"
             title="movie.name"
             >
           </custom-image>
