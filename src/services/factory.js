@@ -21,10 +21,11 @@ angular.module('robertkalfas')
         var items = this;
         var defer = $q.defer();
 
-        items.sync(Config.sourceUrl, 'config').success(function (data) {
-          items.config = data;
+        items.sync(Config.sourceUrl, 'videos').success(function (data) {
+          items.data = data;
+          defer.resolve();
 
-          var accounts = items.config.accounts;
+          /*var accounts = items.config.accounts;
           var videos = []; // vimeo accounts we want to display
 
           for (var j = 0, lenAccounts = accounts.length; j < lenAccounts; j++) {
@@ -33,7 +34,7 @@ angular.module('robertkalfas')
 
           items.syncAll(videos, function () {
               defer.resolve();
-          });
+          });*/
         });
 
         return defer.promise;
