@@ -72,16 +72,6 @@
   .movie {
     width: 100%;
 
-    &.highlight {
-      width: 100%;
-
-      .video-view & {
-        @include respond-to(web) {
-          width: 100% * 1/3;
-        }
-      }
-    }
-
     @include respond-to(tablet) {
       float: left;
       width: 50%;
@@ -132,6 +122,32 @@
       .description {
         @include text-overflow(16px, 16px, 3);
         color: $color-white;
+      }
+    }
+
+    &.highlight {
+      width: 100%;
+
+      .video-view & {
+        @include respond-to(web) {
+          width: 100% * 1/3;
+        }
+      }
+
+      .meta {
+        @include respond-to(web) {
+          padding: 0 50px;
+        }
+      }
+      .title {
+        @include respond-to(web) {
+          @include text-overflow(40px, 60px, 1);
+        }
+      }
+      .description {
+        @include respond-to(web) {
+          @include text-overflow(24px, 25px, 3);
+        }
       }
     }
 
