@@ -2,6 +2,10 @@
 
 angular.module('robertkalfas')
   .controller('WorkCtrl', function ($scope, Items, movie, $sce, Config, $filter) {
+    var body = $('body');
+
+    body.addClass('video-view');
+
     $scope.idMaker = function (value) {
       return $filter('idMaker')(value);
     };
@@ -23,9 +27,9 @@ angular.module('robertkalfas')
 
     if (movie && selected) {
       var videoUrl = Config.playerUrl + movie + '?color=fb101e&title=0&byline=0&portrait=0';
-      var body = $('body');
 
-      body.addClass('video-view');
+      body.removeClass('video-view');
+      body.addClass('video-detail-view');
 
       $scope.movie = {
         src: $sce.trustAsResourceUrl(videoUrl),
