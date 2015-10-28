@@ -1,12 +1,15 @@
 {
   "name": "robertkalfas",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^1.2.0"
+  },
   "scripts": {
     "test": "gulp test"
   },
   "devDependencies": {
-    "gulp": "~3.8.10",
+    "gulp": "^3.9.0",
+    "gulp-scp2": "^0.2.0",
     "gulp-autoprefixer": "~2.1.0",
     "gulp-angular-templatecache": "~1.5.0",
     "del": "~1.1.1",
