@@ -7,3 +7,5 @@ bower_components/
 dist
 
 .env
+
+npm-debug.log

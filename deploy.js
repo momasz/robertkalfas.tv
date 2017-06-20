@@ -6,7 +6,7 @@ const DIR = process.env.DIR;
 const credentials = {
   host: process.env.HOST,
   port: process.env.PORT,
-  username: process.env.USER,
+  username: process.env.USERNAME,
   password: process.env.PASS,
   path: DIR
 };

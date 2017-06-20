@@ -10,6 +10,418 @@ angular.module('robertkalfas')
       data: [
         {
           "highlighted": true,
+          "uri": "/videos/222313552",
+          "name": "Robert Kalfas Showreel 2017",
+          "description": "Here´s a compilation of work done during this past years, both at Studio Pigeon and as personal projects.\n\nMusic: Hoodboi, Lido - Palm Reader (feat. Lido) \n\n0:00-0:09 - My role: everything\n0:09-0:12 - My role: animation \n0:12-0:17 - My role: everything\n0:17-0:19 - My role: animation \n0:19-0:22 - My role: everything\n0:22-0:27 - My role: animation\n0:27-0:29 - My role: everything\n0:29-0:33 - My role: animation",
+          "link": "https://vimeo.com/222313552",
+          "duration": 36,
+          "width": 1920,
+          "language": "en",
+          "height": 1080,
+          "embed": {
+            "html": "<iframe src=\"https://player.vimeo.com/video/222313552?badge=0&autopause=0&player_id=0\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"Robert Kalfas Showreel 2017\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+          },
+          "created_time": "2017-06-20T07:16:00+00:00",
+          "modified_time": "2017-06-20T15:50:54+00:00",
+          "release_time": "2017-06-20T07:16:00+00:00",
+          "content_rating": [
+            "safe"
+          ],
+          "license": null,
+          "privacy": {
+            "view": "anybody",
+            "embed": "public",
+            "download": true,
+            "add": true,
+            "comments": "anybody"
+          },
+          "pictures": {
+            "uri": "/videos/222313552/pictures/640814768",
+            "active": true,
+            "type": "custom",
+            "sizes": [
+              {
+                "width": 100,
+                "height": 75,
+                "link": "https://i.vimeocdn.com/video/640814768_100x75.jpg?r=pad",
+                "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F640814768_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+              },
+              {
+                "width": 200,
+                "height": 150,
+                "link": "https://i.vimeocdn.com/video/640814768_200x150.jpg?r=pad",
+                "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F640814768_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+              },
+              {
+                "width": 295,
+                "height": 166,
+                "link": "https://i.vimeocdn.com/video/640814768_295x166.jpg?r=pad",
+                "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F640814768_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+              },
+              {
+                "width": 640,
+                "height": 360,
+                "link": "https://i.vimeocdn.com/video/640814768_640x360.jpg?r=pad",
+                "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F640814768_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+              },
+              {
+                "width": 960,
+                "height": 540,
+                "link": "https://i.vimeocdn.com/video/640814768_960x540.jpg?r=pad",
+                "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F640814768_960x540.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+              },
+              {
+                "width": 1280,
+                "height": 720,
+                "link": "https://i.vimeocdn.com/video/640814768_1280x720.jpg?r=pad",
+                "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F640814768_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+              }
+            ],
+            "resource_key": "4b6514a99fbe75e8abbe1f54d8f83fb3d8d42a87"
+          },
+          "tags": [
+            {
+              "uri": "/tags/animation",
+              "name": "animation",
+              "tag": "animation",
+              "canonical": "animation",
+              "metadata": {
+                "connections": {
+                  "videos": {
+                    "uri": "/tags/animation/videos",
+                    "options": [
+                      "GET"
+                    ],
+                    "total": 1056413
+                  }
+                }
+              },
+              "resource_key": "106cf1ce3df4a2a95b21452d1bc6b027a58959b1"
+            },
+            {
+              "uri": "/tags/2danimation",
+              "name": "2d animation",
+              "tag": "2d animation",
+              "canonical": "2danimation",
+              "metadata": {
+                "connections": {
+                  "videos": {
+                    "uri": "/tags/2danimation/videos",
+                    "options": [
+                      "GET"
+                    ],
+                    "total": 36362
+                  }
+                }
+              },
+              "resource_key": "72fda5942d08fbe4db4c9abba5f33c0e24434048"
+            },
+            {
+              "uri": "/tags/motiongraphic",
+              "name": "motion graphic",
+              "tag": "motion graphic",
+              "canonical": "motiongraphic",
+              "metadata": {
+                "connections": {
+                  "videos": {
+                    "uri": "/tags/motiongraphic/videos",
+                    "options": [
+                      "GET"
+                    ],
+                    "total": 38436
+                  }
+                }
+              },
+              "resource_key": "db76a9a981998efd596791ca2ec2a8420e156c78"
+            },
+            {
+              "uri": "/tags/motiondesign",
+              "name": "motion design",
+              "tag": "motion design",
+              "canonical": "motiondesign",
+              "metadata": {
+                "connections": {
+                  "videos": {
+                    "uri": "/tags/motiondesign/videos",
+                    "options": [
+                      "GET"
+                    ],
+                    "total": 69191
+                  }
+                }
+              },
+              "resource_key": "c9e617e577a71751d517de6614728af1d8fc6834"
+            },
+            {
+              "uri": "/tags/characteranimation",
+              "name": "character animation",
+              "tag": "character animation",
+              "canonical": "characteranimation",
+              "metadata": {
+                "connections": {
+                  "videos": {
+                    "uri": "/tags/characteranimation/videos",
+                    "options": [
+                      "GET"
+                    ],
+                    "total": 20734
+                  }
+                }
+              },
+              "resource_key": "bcc7dc2d7987857818ff73ecb07f50edf6301360"
+            },
+            {
+              "uri": "/tags/reel",
+              "name": "reel",
+              "tag": "reel",
+              "canonical": "reel",
+              "metadata": {
+                "connections": {
+                  "videos": {
+                    "uri": "/tags/reel/videos",
+                    "options": [
+                      "GET"
+                    ],
+                    "total": 170248
+                  }
+                }
+              },
+              "resource_key": "a5546ef88a57dd1c596436778979cafd68143422"
+            }
+          ],
+          "stats": {
+            "plays": null
+          },
+          "metadata": {
+            "connections": {
+              "comments": {
+                "uri": "/videos/222313552/comments",
+                "options": [
+                  "GET"
+                ],
+                "total": 1
+              },
+              "credits": {
+                "uri": "/videos/222313552/credits",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 1
+              },
+              "likes": {
+                "uri": "/videos/222313552/likes",
+                "options": [
+                  "GET"
+                ],
+                "total": 8
+              },
+              "pictures": {
+                "uri": "/videos/222313552/pictures",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 1
+              },
+              "texttracks": {
+                "uri": "/videos/222313552/texttracks",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 0
+              },
+              "related": {
+                "uri": "/users/robertkalfas/videos?offset=1",
+                "options": [
+                  "GET"
+                ]
+              }
+            },
+            "interactions": null
+          },
+          "user": {
+            "uri": "/users/11154082",
+            "name": "Robert Kalfas",
+            "link": "https://vimeo.com/robertkalfas",
+            "location": "Cracow",
+            "bio": "I'm motion graphic artist and Toon Boom Harmony animator.\nCurrently working in studio Pigeon\nAvailable for freelance\nrobertkalfas@gmail.com",
+            "created_time": "2012-04-05T17:46:33+00:00",
+            "account": "plus",
+            "pictures": {
+              "uri": "/users/11154082/pictures/9248478",
+              "active": true,
+              "type": "custom",
+              "sizes": [
+                {
+                  "width": 30,
+                  "height": 30,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_30x30"
+                },
+                {
+                  "width": 75,
+                  "height": 75,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_75x75"
+                },
+                {
+                  "width": 100,
+                  "height": 100,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_100x100"
+                },
+                {
+                  "width": 300,
+                  "height": 300,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_300x300"
+                }
+              ],
+              "resource_key": "d281515d34cd5eafd5375b257f7b8ccb21590c9a"
+            },
+            "websites": [
+              {
+                "name": "My Website",
+                "link": "www.robertkalfas.tv",
+                "description": null
+              },
+              {
+                "name": "Behance profile",
+                "link": "www.behance.net/robertkalfas",
+                "description": null
+              },
+              {
+                "name": "twitter account",
+                "link": "twitter.com/RobertKalfas",
+                "description": null
+              }
+            ],
+            "metadata": {
+              "connections": {
+                "activities": {
+                  "uri": "/users/11154082/activities",
+                  "options": [
+                    "GET"
+                  ]
+                },
+                "albums": {
+                  "uri": "/users/11154082/albums",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "appearances": {
+                  "uri": "/users/11154082/appearances",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "categories": {
+                  "uri": "/users/11154082/categories",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "channels": {
+                  "uri": "/users/11154082/channels",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 12
+                },
+                "feed": {
+                  "uri": "/users/11154082/feed",
+                  "options": [
+                    "GET"
+                  ]
+                },
+                "followers": {
+                  "uri": "/users/11154082/followers",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 41
+                },
+                "following": {
+                  "uri": "/users/11154082/following",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 157
+                },
+                "groups": {
+                  "uri": "/users/11154082/groups",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 8
+                },
+                "likes": {
+                  "uri": "/users/11154082/likes",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 1428
+                },
+                "moderated_channels": {
+                  "uri": "/users/11154082/channels?filter=moderated",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "portfolios": {
+                  "uri": "/users/11154082/portfolios",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "videos": {
+                  "uri": "/users/11154082/videos",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 5
+                },
+                "watchlater": {
+                  "uri": "/users/11154082/watchlater",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 1
+                },
+                "shared": {
+                  "uri": "/users/11154082/shared/videos",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 1
+                },
+                "pictures": {
+                  "uri": "/users/11154082/pictures",
+                  "options": [
+                    "GET",
+                    "POST"
+                  ],
+                  "total": 1
+                }
+              }
+            },
+            "resource_key": "e6f39a32146da2a9dd481e6568f0b0f0f43a7087",
+            "preferences": {
+              "videos": {
+                "privacy": null
+              }
+            }
+          },
+          "app": null,
+          "status": "available",
+          "resource_key": "8a9a02e9d8ab337df67dcf36f4289e3a0acee05e",
+          "embed_presets": null
+        },
+        {
           "uri": "/videos/192036109",
           "name": "A Guide to offside rule",
           "description": "Explainer Video that will help you understand the offside rule. Made just for fun.\n\nDirecting, design and animation: Robert Kalfas\nAudio: Kamil Struzik",
@@ -877,359 +1289,6 @@ angular.module('robertkalfas')
           "app": null,
           "status": "available",
           "resource_key": "05d98bd78414969f89e8d89faa0a44f56a7623ad",
-          "embed_presets": null
-        },
-        {
-          "uri": "/videos/125490662",
-          "name": "Robert Kalfas REEL 2015",
-          "description": "This is my latest showreel with work I've done at Studio Pigeon as well as various freelance projects.\n\nThis was a very busy but exciting year! Big thanks to all my friends at Studio Pigeon!\n\nMusic: Antiloops-Yep Greemix \nhttps://soundcloud.com/greem/antiloops-yep-greemix",
-          "link": "https://vimeo.com/125490662",
-          "duration": 86,
-          "width": 1920,
-          "language": "en",
-          "height": 1080,
-          "embed": {
-            "html": "<iframe src=\"https://player.vimeo.com/video/125490662?badge=0&autopause=0&player_id=0\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"Robert Kalfas REEL 2015\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
-          },
-          "created_time": "2015-04-20T18:21:23+00:00",
-          "modified_time": "2016-03-12T19:09:29+00:00",
-          "content_rating": [
-            "safe"
-          ],
-          "license": null,
-          "privacy": {
-            "view": "anybody",
-            "embed": "public",
-            "download": true,
-            "add": true,
-            "comments": "anybody"
-          },
-          "pictures": {
-            "uri": "/videos/125490662/pictures/515624850",
-            "active": true,
-            "type": "custom",
-            "sizes": [
-              {
-                "width": 100,
-                "height": 75,
-                "link": "https://i.vimeocdn.com/video/515624850_100x75.jpg?r=pad"
-              },
-              {
-                "width": 200,
-                "height": 150,
-                "link": "https://i.vimeocdn.com/video/515624850_200x150.jpg?r=pad"
-              },
-              {
-                "width": 295,
-                "height": 166,
-                "link": "https://i.vimeocdn.com/video/515624850_295x166.jpg?r=pad"
-              },
-              {
-                "width": 640,
-                "height": 360,
-                "link": "https://i.vimeocdn.com/video/515624850_640x360.jpg?r=pad"
-              },
-              {
-                "width": 960,
-                "height": 540,
-                "link": "https://i.vimeocdn.com/video/515624850_960x540.jpg?r=pad"
-              },
-              {
-                "width": 1920,
-                "height": 1080,
-                "link": "https://i.vimeocdn.com/video/515624850_1920x1080.jpg?r=pad"
-              }
-            ]
-          },
-          "tags": [
-            {
-              "uri": "/tags/characteranimation",
-              "name": "character animation",
-              "tag": "character animation",
-              "canonical": "characteranimation",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/characteranimation/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 16387
-                  }
-                }
-              }
-            },
-            {
-              "uri": "/tags/showreel",
-              "name": "showreel",
-              "tag": "showreel",
-              "canonical": "showreel",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/showreel/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 125484
-                  }
-                }
-              }
-            },
-            {
-              "uri": "/tags/motiongraphicshowreel",
-              "name": "motion graphic showreel",
-              "tag": "motion graphic showreel",
-              "canonical": "motiongraphicshowreel",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/motiongraphicshowreel/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 28
-                  }
-                }
-              }
-            },
-            {
-              "uri": "/tags/motiondesign",
-              "name": "motion design",
-              "tag": "motion design",
-              "canonical": "motiondesign",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/motiondesign/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 49494
-                  }
-                }
-              }
-            },
-            {
-              "uri": "/tags/motiongraphic",
-              "name": "motion graphic",
-              "tag": "motion graphic",
-              "canonical": "motiongraphic",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/motiongraphic/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 30238
-                  }
-                }
-              }
-            },
-            {
-              "uri": "/tags/cut-outanimation",
-              "name": "cut-out animation",
-              "tag": "cut-out animation",
-              "canonical": "cut-outanimation",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/cut-outanimation/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 318
-                  }
-                }
-              }
-            }
-          ],
-          "stats": {
-            "plays": 541
-          },
-          "metadata": {
-            "connections": {
-              "comments": {
-                "uri": "/videos/125490662/comments",
-                "options": [
-                  "GET"
-                ],
-                "total": 5
-              },
-              "credits": {
-                "uri": "/videos/125490662/credits",
-                "options": [
-                  "GET",
-                  "POST"
-                ],
-                "total": 1
-              },
-              "likes": {
-                "uri": "/videos/125490662/likes",
-                "options": [
-                  "GET"
-                ],
-                "total": 21
-              },
-              "pictures": {
-                "uri": "/videos/125490662/pictures",
-                "options": [
-                  "GET",
-                  "POST"
-                ],
-                "total": 1
-              },
-              "texttracks": {
-                "uri": "/videos/125490662/texttracks",
-                "options": [
-                  "GET",
-                  "POST"
-                ],
-                "total": 0
-              },
-              "related": null
-            }
-          },
-          "user": {
-            "uri": "/users/11154082",
-            "name": "Robert Kalfas",
-            "link": "https://vimeo.com/robertkalfas",
-            "location": "Cracow",
-            "bio": "I'm motion graphic artist currently working at Pigeon Studio \nrobertkalfas@gmail.com\n\nwww.robertkalfas.tv\n\nBehance profile:\nhttp://www.behance.net/robertkalfas",
-            "created_time": "2012-04-05T17:46:33+00:00",
-            "account": "plus",
-            "pictures": {
-              "uri": "/users/11154082/pictures/9248478",
-              "active": true,
-              "type": "custom",
-              "sizes": [
-                {
-                  "width": 30,
-                  "height": 30,
-                  "link": "https://i.vimeocdn.com/portrait/9248478_30x30.jpg?r=pad"
-                },
-                {
-                  "width": 75,
-                  "height": 75,
-                  "link": "https://i.vimeocdn.com/portrait/9248478_75x75.jpg?r=pad"
-                },
-                {
-                  "width": 100,
-                  "height": 100,
-                  "link": "https://i.vimeocdn.com/portrait/9248478_100x100.jpg?r=pad"
-                },
-                {
-                  "width": 300,
-                  "height": 300,
-                  "link": "https://i.vimeocdn.com/portrait/9248478_300x300.jpg?r=pad"
-                }
-              ]
-            },
-            "websites": [],
-            "metadata": {
-              "connections": {
-                "activities": {
-                  "uri": "/users/11154082/activities",
-                  "options": [
-                    "GET"
-                  ]
-                },
-                "albums": {
-                  "uri": "/users/11154082/albums",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 0
-                },
-                "channels": {
-                  "uri": "/users/11154082/channels",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 9
-                },
-                "feed": {
-                  "uri": "/users/11154082/feed",
-                  "options": [
-                    "GET"
-                  ]
-                },
-                "followers": {
-                  "uri": "/users/11154082/followers",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 30
-                },
-                "following": {
-                  "uri": "/users/11154082/following",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 122
-                },
-                "groups": {
-                  "uri": "/users/11154082/groups",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 8
-                },
-                "likes": {
-                  "uri": "/users/11154082/likes",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 1243
-                },
-                "portfolios": {
-                  "uri": "/users/11154082/portfolios",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 0
-                },
-                "videos": {
-                  "uri": "/users/11154082/videos",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 3
-                },
-                "watchlater": {
-                  "uri": "/users/11154082/watchlater",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 0
-                },
-                "shared": {
-                  "uri": "/users/11154082/shared/videos",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 1
-                },
-                "pictures": {
-                  "uri": "/users/11154082/pictures",
-                  "options": [
-                    "GET",
-                    "POST"
-                  ],
-                  "total": 1
-                }
-              }
-            },
-            "preferences": {
-              "videos": {
-                "privacy": null
-              }
-            }
-          },
-          "app": null,
-          "status": "available",
-          "resource_key": "6bf9de429bbcbd1fef8da8c817ce254291ef0fd9",
           "embed_presets": null
         },
         {
