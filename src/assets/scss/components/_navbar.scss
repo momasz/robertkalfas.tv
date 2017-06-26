@@ -46,12 +46,8 @@
     }
 
     img {
-      max-width: 100px;
+      max-width: 200px;
       margin: $grid-gutter-width/2 0;
-
-      @include respond-to(tablet) {
-        max-width: 200px;
-      }
     }
   }
 

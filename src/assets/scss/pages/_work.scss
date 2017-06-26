@@ -136,11 +136,15 @@
 
       .video-view & {
         .loaded .meta-wrapper {
-          background: rgba($color-black, .5);
-          opacity: 1;
+          @include respond-to(web) {
+            background: rgba($color-black, 0);
+            opacity: 1;
+          }
         }
         .meta {
           @include respond-to(web) {
+            display: none;
+            opacity: 0;
             transition: ease .3s;
             padding: 0 50px;
           }
@@ -165,6 +169,7 @@
           .meta-wrapper {
             background: rgba($color-black, .75);
           }
+          .meta,
           .description {
             display: block;
             opacity: 1;
