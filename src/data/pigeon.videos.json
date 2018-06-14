@@ -1,0 +1,413 @@
+[
+  {
+    "uri": "/videos/103314222",
+    "name": "Studio Pigeon explainer: Farmer Finder",
+    "description": "If you are looking for a good alternative to doing your groceries we have a perfect solution. Instead of buying products from powerful multi-international food corporation now you have a reliable sources of healthy food, medicinal products and natural fibres at hand. Visit Farmerfinder.com online and find the nearest seller in your area. Live globally, buy locally!",
+    "link": "https://vimeo.com/103314222",
+    "duration": 75,
+    "width": 1920,
+    "language": null,
+    "height": 1080,
+    "embed": {
+      "html": "<iframe src=\"https://player.vimeo.com/video/103314222?badge=0&autopause=0&player_id=0\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"Studio Pigeon explainer: Farmer Finder\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2014-08-13T08:28:22+00:00",
+    "modified_time": "2015-08-16T08:10:39+00:00",
+    "content_rating": [
+      "unrated"
+    ],
+    "license": null,
+    "privacy": {
+      "view": "anybody",
+      "embed": "public",
+      "download": true,
+      "add": true,
+      "comments": "anybody"
+    },
+    "pictures": [
+      {
+        "type": "thumbnail",
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/507956837_1280.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "width": 960,
+        "height": 540,
+        "link": "https://i.vimeocdn.com/video/507956837_960.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "width": 640,
+        "height": 360,
+        "link": "https://i.vimeocdn.com/video/507956837_640.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "width": 295,
+        "height": 166,
+        "link": "https://i.vimeocdn.com/video/507956837_295x166.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/507956837_200x150.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "width": 100,
+        "height": 75,
+        "link": "https://i.vimeocdn.com/video/507956837_100x75.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "uri": "/tags/farmer",
+        "name": "farmer",
+        "tag": "farmer",
+        "canonical": "farmer",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/farmer/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 2803
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/finder",
+        "name": "finder",
+        "tag": "finder",
+        "canonical": "finder",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/finder/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 585
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/organic",
+        "name": "organic",
+        "tag": "organic",
+        "canonical": "organic",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/organic/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 13229
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/shop",
+        "name": "shop",
+        "tag": "shop",
+        "canonical": "shop",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/shop/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 12172
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/service",
+        "name": "service",
+        "tag": "service",
+        "canonical": "service",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/service/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 75369
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/advert",
+        "name": "advert",
+        "tag": "advert",
+        "canonical": "advert",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/advert/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 14482
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/ad",
+        "name": "ad",
+        "tag": "ad",
+        "canonical": "ad",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/ad/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 36723
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/advertisement",
+        "name": "advertisement",
+        "tag": "advertisement",
+        "canonical": "advertisement",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/advertisement/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 16180
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/startup",
+        "name": "startup",
+        "tag": "startup",
+        "canonical": "startup",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/startup/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 13696
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/bio",
+        "name": "bio",
+        "tag": "bio",
+        "canonical": "bio",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/bio/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 4789
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/eco",
+        "name": "eco",
+        "tag": "eco",
+        "canonical": "eco",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/eco/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 6528
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/explainer",
+        "name": "explainer",
+        "tag": "explainer",
+        "canonical": "explainer",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/explainer/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 5298
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/animation",
+        "name": "animation",
+        "tag": "animation",
+        "canonical": "animation",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/animation/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 666375
+            }
+          }
+        }
+      },
+      {
+        "uri": "/tags/2d",
+        "name": "2d",
+        "tag": "2d",
+        "canonical": "2d",
+        "metadata": {
+          "connections": {
+            "videos": {
+              "uri": "/tags/2d/videos",
+              "options": [
+                "GET"
+              ],
+              "total": 69414
+            }
+          }
+        }
+      }
+    ],
+    "stats": {
+      "plays": null,
+      "likes": 41,
+      "comments": 4
+    },
+    "metadata": {
+      "connections": {
+        "credits": "/videos/103314222/credits",
+        "likes": "/videos/103314222/likes",
+        "texttracks": {
+          "uri": "/videos/103314222/texttracks",
+          "options": [
+            "GET",
+            "POST"
+          ],
+          "total": 0
+        }
+      },
+      "interactions": {
+        "watchlater": {
+          "added": false,
+          "added_time": null,
+          "uri": "/users/1249483/watchlater/103314222"
+        },
+        "like": {
+          "added": false,
+          "added_time": null,
+          "uri": "/users/1249483/likes/103314222"
+        }
+      }
+    },
+    "user": {
+      "uri": "/users/11513063",
+      "name": "Studio Pigeon",
+      "link": "https://vimeo.com/studiopigeon",
+      "location": "Cracow, Main Square",
+      "bio": "Even the best idea needs explanation.\nWe know that so well.\nWe also know that you don’t have much time.\nThat’s why you need an explainer video.\nSo give it to us & get things movin’",
+      "created_time": "2012-04-30T15:42:25+00:00",
+      "account": "plus",
+      "pictures": [
+        {
+          "type": "portrait",
+          "width": 30,
+          "height": 30,
+          "link": "https://i.vimeocdn.com/portrait/5442071_30x30.jpg"
+        },
+        {
+          "type": "portrait",
+          "width": 75,
+          "height": 75,
+          "link": "https://i.vimeocdn.com/portrait/5442071_75x75.jpg"
+        },
+        {
+          "type": "portrait",
+          "width": 100,
+          "height": 100,
+          "link": "https://i.vimeocdn.com/portrait/5442071_100x100.jpg"
+        },
+        {
+          "type": "portrait",
+          "width": 300,
+          "height": 300,
+          "link": "https://i.vimeocdn.com/portrait/5442071_300x300.jpg"
+        }
+      ],
+      "websites": [
+        {
+          "name": "Studio Pigeon",
+          "link": "http://www.studiopigeon.com",
+          "description": null
+        }
+      ],
+      "metadata": {
+        "connections": {
+          "activities": "/users/11513063/activities",
+          "albums": "/users/11513063/albums",
+          "channels": "/users/11513063/channels",
+          "feed": "/users/11513063/feed",
+          "followers": "/users/11513063/followers",
+          "following": "/users/11513063/following",
+          "groups": "/users/11513063/groups",
+          "likes": "/users/11513063/likes",
+          "portfolios": "/users/11513063/portfolios",
+          "videos": "/users/11513063/videos",
+          "shared": "/users/11513063/shared/videos",
+          "pictures": "/users/11513063/pictures",
+          "violations": null,
+          "watchlater": null
+        },
+        "interactions": {
+          "follow": {
+            "added": false,
+            "added_time": null,
+            "uri": "/users/1249483/following/11513063"
+          }
+        }
+      },
+      "preferences": {
+        "videos": {
+          "privacy": null
+        }
+      },
+      "stats": {}
+    },
+    "app": null,
+    "status": "available",
+    "embed_presets": null
+  }
+]
