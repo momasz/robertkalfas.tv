@@ -10,20 +10,36 @@ angular.module('robertkalfas')
       data: [
         {
           "highlighted": true,
-          "uri": "/videos/222313552",
-          "name": "Robert Kalfas Showreel 2017",
-          "description": "Here´s a compilation of work done during this past years, both at Studio Pigeon and as personal projects.\n\nMusic: Hoodboi, Lido - Palm Reader (feat. Lido) \n\n0:00-0:09 - My role: everything\n0:09-0:12 - My role: animation \n0:12-0:17 - My role: everything\n0:17-0:19 - My role: animation \n0:19-0:22 - My role: everything\n0:22-0:27 - My role: animation\n0:27-0:29 - My role: everything\n0:29-0:33 - My role: animation",
-          "link": "https://vimeo.com/222313552",
-          "duration": 36,
+          "uri": "/videos/383994441",
+          "name": "Robert Kalfas Showreel 2020",
+          "description": "Here's a compilation of work done during this past years\n\nMusic: Hip Hop Fun by ChoclateFix\n\n0:00-0:05 - My role: everything\n0:05-0:18 - My role: animation\n0:18-0:20 - My role: everything\n0:20-0:29 - My role: animation\n0:29-0:31 - My role: everything\n0:31-0:47 - My role: animation",
+          "type": "video",
+          "link": "https://vimeo.com/383994441",
+          "duration": 50,
           "width": 1920,
           "language": "en",
           "height": 1080,
           "embed": {
-            "html": "<iframe src=\"https://player.vimeo.com/video/222313552?badge=0&autopause=0&player_id=0\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"Robert Kalfas Showreel 2017\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+            "html": "<iframe src=\"https://player.vimeo.com/video/383994441?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=163472\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Robert Kalfas Showreel 2020\"></iframe>",
+            "badges": {
+              "hdr": false,
+              "live": {
+                "streaming": false,
+                "archived": false
+              },
+              "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+              },
+              "vod": false,
+              "weekend_challenge": false
+            }
           },
-          "created_time": "2017-06-20T07:16:00+00:00",
-          "modified_time": "2017-10-02T22:28:41+00:00",
-          "release_time": "2017-06-20T07:16:00+00:00",
+          "created_time": "2020-01-10T13:46:38+00:00",
+          "modified_time": "2020-01-12T09:00:33+00:00",
+          "release_time": "2020-01-10T13:46:38+00:00",
           "content_rating": [
             "safe"
           ],
@@ -37,61 +53,73 @@ angular.module('robertkalfas')
           },
           "pictures": [
             {
-              "type": "thumbnail",
-              "width": 1280,
-              "height": 720,
-              "link": "https://i.vimeocdn.com/video/640814768_1280.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 960,
-              "height": 540,
-              "link": "https://i.vimeocdn.com/video/640814768_960.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 640,
-              "height": 360,
-              "link": "https://i.vimeocdn.com/video/640814768_640.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 295,
-              "height": 166,
-              "link": "https://i.vimeocdn.com/video/640814768_295x166.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 200,
-              "height": 150,
-              "link": "https://i.vimeocdn.com/video/640814768_200x150.jpg"
-            },
-            {
-              "type": "thumbnail",
               "width": 100,
               "height": 75,
-              "link": "https://i.vimeocdn.com/video/640814768_100x75.jpg"
+              "link": "https://i.vimeocdn.com/video/845602690_100x75.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1280,
+              "height": 720,
+              "link": "https://i.vimeocdn.com/video/845602690_1280x720.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 200,
+              "height": 150,
+              "link": "https://i.vimeocdn.com/video/845602690_200x150.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 295,
+              "height": 166,
+              "link": "https://i.vimeocdn.com/video/845602690_295x166.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 640,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/video/845602690_640x360.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1920,
+              "height": 1080,
+              "link": "https://i.vimeocdn.com/video/845602690_1920x1080.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 640,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/video/845602690_640x360.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 960,
+              "height": 540,
+              "link": "https://i.vimeocdn.com/video/845602690_960x540.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_960x540.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1280,
+              "height": 720,
+              "link": "https://i.vimeocdn.com/video/845602690_1280x720.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1920,
+              "height": 1080,
+              "link": "https://i.vimeocdn.com/video/845602690_1920x1080.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1280,
+              "height": 720,
+              "link": "https://i.vimeocdn.com/video/845602690_1280x720.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845602690_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
             }
           ],
           "tags": [
-            {
-              "uri": "/tags/animation",
-              "name": "animation",
-              "tag": "animation",
-              "canonical": "animation",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/animation/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 1097354
-                  }
-                }
-              },
-              "resource_key": "106cf1ce3df4a2a95b21452d1bc6b027a58959b1"
-            },
             {
               "uri": "/tags/2danimation",
               "name": "2d animation",
@@ -104,390 +132,11 @@ angular.module('robertkalfas')
                     "options": [
                       "GET"
                     ],
-                    "total": 38847
+                    "total": 59609
                   }
                 }
               },
-              "resource_key": "72fda5942d08fbe4db4c9abba5f33c0e24434048"
-            },
-            {
-              "uri": "/tags/motiongraphic",
-              "name": "motion graphic",
-              "tag": "motion graphic",
-              "canonical": "motiongraphic",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/motiongraphic/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 40210
-                  }
-                }
-              },
-              "resource_key": "db76a9a981998efd596791ca2ec2a8420e156c78"
-            },
-            {
-              "uri": "/tags/motiondesign",
-              "name": "motion design",
-              "tag": "motion design",
-              "canonical": "motiondesign",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/motiondesign/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 74255
-                  }
-                }
-              },
-              "resource_key": "c9e617e577a71751d517de6614728af1d8fc6834"
-            },
-            {
-              "uri": "/tags/characteranimation",
-              "name": "character animation",
-              "tag": "character animation",
-              "canonical": "characteranimation",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/characteranimation/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 21640
-                  }
-                }
-              },
-              "resource_key": "bcc7dc2d7987857818ff73ecb07f50edf6301360"
-            },
-            {
-              "uri": "/tags/reel",
-              "name": "reel",
-              "tag": "reel",
-              "canonical": "reel",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/reel/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 176014
-                  }
-                }
-              },
-              "resource_key": "a5546ef88a57dd1c596436778979cafd68143422"
-            }
-          ],
-          "stats": {
-            "plays": 142,
-            "likes": 11,
-            "comments": 1
-          },
-          "metadata": {
-            "connections": {
-              "credits": "/videos/222313552/credits",
-              "likes": "/videos/222313552/likes",
-              "texttracks": {
-                "uri": "/videos/222313552/texttracks",
-                "options": [
-                  "GET",
-                  "POST"
-                ],
-                "total": 0
-              },
-              "related": {
-                "uri": "/users/robertkalfas/videos?offset=2",
-                "options": [
-                  "GET"
-                ]
-              }
-            },
-            "interactions": {
-              "watchlater": {
-                "uri": "/users/1249483/watchlater/222313552",
-                "options": [
-                  "GET",
-                  "PUT",
-                  "DELETE"
-                ],
-                "added": false,
-                "added_time": null
-              },
-              "like": {
-                "uri": "/users/1249483/likes/222313552",
-                "options": [
-                  "GET",
-                  "PUT",
-                  "DELETE"
-                ],
-                "added": true,
-                "added_time": "2017-06-20T15:50:54+00:00"
-              },
-              "report": {
-                "uri": "/videos/222313552/report",
-                "options": [
-                  "POST"
-                ],
-                "reason": [
-                  "pornographic",
-                  "harassment",
-                  "advertisement",
-                  "ripoff",
-                  "incorrect rating",
-                  "spam"
-                ]
-              }
-            }
-          },
-          "user": {
-            "uri": "/users/11154082",
-            "name": "Robert Kalfas",
-            "link": "https://vimeo.com/robertkalfas",
-            "location": "Cracow",
-            "bio": "I'm motion graphic artist and Toon Boom Harmony animator.\nCurrently working in studio Pigeon\nAvailable for freelance\nrobertkalfas@gmail.com",
-            "created_time": "2012-04-05T17:46:33+00:00",
-            "account": "plus",
-            "pictures": [
-              {
-                "type": "portrait",
-                "width": 30,
-                "height": 30,
-                "link": "https://i.vimeocdn.com/portrait/9248478_30x30"
-              },
-              {
-                "type": "portrait",
-                "width": 75,
-                "height": 75,
-                "link": "https://i.vimeocdn.com/portrait/9248478_75x75"
-              },
-              {
-                "type": "portrait",
-                "width": 100,
-                "height": 100,
-                "link": "https://i.vimeocdn.com/portrait/9248478_100x100"
-              },
-              {
-                "type": "portrait",
-                "width": 300,
-                "height": 300,
-                "link": "https://i.vimeocdn.com/portrait/9248478_300x300"
-              }
-            ],
-            "websites": [
-              {
-                "name": "My Website",
-                "link": "www.robertkalfas.tv",
-                "description": null
-              },
-              {
-                "name": "Behance profile",
-                "link": "www.behance.net/robertkalfas",
-                "description": null
-              },
-              {
-                "name": "twitter account",
-                "link": "twitter.com/RobertKalfas",
-                "description": null
-              }
-            ],
-            "metadata": {
-              "connections": {
-                "activities": "/users/11154082/activities",
-                "albums": "/users/11154082/albums",
-                "appearances": {
-                  "uri": "/users/11154082/appearances",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 0
-                },
-                "channels": "/users/11154082/channels",
-                "feed": "/users/11154082/feed",
-                "followers": "/users/11154082/followers",
-                "following": "/users/11154082/following",
-                "groups": "/users/11154082/groups",
-                "likes": "/users/11154082/likes",
-                "moderated_channels": {
-                  "uri": "/users/11154082/channels?filter=moderated",
-                  "options": [
-                    "GET"
-                  ],
-                  "total": 0
-                },
-                "portfolios": "/users/11154082/portfolios",
-                "videos": "/users/11154082/videos",
-                "shared": "/users/11154082/shared/videos",
-                "pictures": "/users/11154082/pictures",
-                "violations": null,
-                "watchlater": null
-              },
-              "interactions": {
-                "follow": {
-                  "added": true,
-                  "added_time": "2013-07-01T10:08:30+00:00",
-                  "uri": "/users/1249483/following/11154082"
-                },
-                "block": {
-                  "uri": "/me/block/11154082",
-                  "options": [
-                    "PUT",
-                    "DELETE"
-                  ],
-                  "added": false,
-                  "added_time": null
-                },
-                "report": {
-                  "uri": "/users/11154082/report",
-                  "options": [
-                    "POST"
-                  ],
-                  "reason": [
-                    "inappropriate avatar",
-                    "spammy",
-                    "bad videos",
-                    "creepy",
-                    "not playing nice",
-                    "impersonation"
-                  ]
-                }
-              }
-            },
-            "resource_key": "e6f39a32146da2a9dd481e6568f0b0f0f43a7087",
-            "preferences": {
-              "videos": {
-                "privacy": null
-              }
-            },
-            "stats": {}
-          },
-          "app": null,
-          "status": "available",
-          "resource_key": "8a9a02e9d8ab337df67dcf36f4289e3a0acee05e",
-          "embed_presets": null
-        },
-        {
-          "uri": "/videos/192036109",
-          "name": "A Guide to offside rule",
-          "description": "Explainer Video that will help you understand the offside rule. Made just for fun.\n\nDirecting, design and animation: Robert Kalfas\nAudio: Kamil Struzik",
-          "link": "https://vimeo.com/192036109",
-          "duration": 118,
-          "width": 1920,
-          "language": "en-GB",
-          "height": 1080,
-          "embed": {
-            "html": "<iframe src=\"https://player.vimeo.com/video/192036109?badge=0&autopause=0&player_id=0\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"A Guide to offside rule\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
-          },
-          "created_time": "2016-11-17T21:34:34+00:00",
-          "modified_time": "2017-09-23T21:24:18+00:00",
-          "release_time": "2016-11-17T21:34:34+00:00",
-          "content_rating": [
-            "safe"
-          ],
-          "license": null,
-          "privacy": {
-            "view": "anybody",
-            "embed": "public",
-            "download": false,
-            "add": true,
-            "comments": "anybody"
-          },
-          "pictures": [
-            {
-              "type": "thumbnail",
-              "width": 1280,
-              "height": 720,
-              "link": "https://i.vimeocdn.com/video/603767654_1280.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 960,
-              "height": 540,
-              "link": "https://i.vimeocdn.com/video/603767654_960.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 640,
-              "height": 360,
-              "link": "https://i.vimeocdn.com/video/603767654_640.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 295,
-              "height": 166,
-              "link": "https://i.vimeocdn.com/video/603767654_295x166.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 200,
-              "height": 150,
-              "link": "https://i.vimeocdn.com/video/603767654_200x150.jpg"
-            },
-            {
-              "type": "thumbnail",
-              "width": 100,
-              "height": 75,
-              "link": "https://i.vimeocdn.com/video/603767654_100x75.jpg"
-            }
-          ],
-          "tags": [
-            {
-              "uri": "/tags/animation",
-              "name": "animation",
-              "tag": "animation",
-              "canonical": "animation",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/animation/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 1097354
-                  }
-                }
-              },
-              "resource_key": "01fd60e0d9d422fd351ca06971fdff556bf9d7d9"
-            },
-            {
-              "uri": "/tags/soccer",
-              "name": "soccer",
-              "tag": "soccer",
-              "canonical": "soccer",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/soccer/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 49134
-                  }
-                }
-              },
-              "resource_key": "f72f1890d374cbe4d11df4ded3a18cfe8c9aeb4a"
-            },
-            {
-              "uri": "/tags/football",
-              "name": "football",
-              "tag": "football",
-              "canonical": "football",
-              "metadata": {
-                "connections": {
-                  "videos": {
-                    "uri": "/tags/football/videos",
-                    "options": [
-                      "GET"
-                    ],
-                    "total": 91478
-                  }
-                }
-              },
-              "resource_key": "432c17e0054c4d257d0800ba56299846eb88df75"
+              "resource_key": "ce664353bc83bc61968c05ad4d0417ba79a5eedc"
             },
             {
               "uri": "/tags/aftereffects",
@@ -501,114 +150,142 @@ angular.module('robertkalfas')
                     "options": [
                       "GET"
                     ],
-                    "total": 305154
+                    "total": 359250
                   }
                 }
               },
-              "resource_key": "7c3aeb599de376a5a41a0e5fea3b2bad00932c82"
+              "resource_key": "164598ffe859c8d2890fcba959aee8e437a9bd0b"
             },
             {
-              "uri": "/tags/sport",
-              "name": "sport",
-              "tag": "sport",
-              "canonical": "sport",
+              "uri": "/tags/reel",
+              "name": "reel",
+              "tag": "reel",
+              "canonical": "reel",
               "metadata": {
                 "connections": {
                   "videos": {
-                    "uri": "/tags/sport/videos",
+                    "uri": "/tags/reel/videos",
                     "options": [
                       "GET"
                     ],
-                    "total": 90495
+                    "total": 213829
                   }
                 }
               },
-              "resource_key": "01ab257632b0587e08e9b8508e27ec4d56733894"
+              "resource_key": "7a134b0d1c56ddc9a48964fc40d9a51f25d35911"
             },
             {
-              "uri": "/tags/toonboom",
-              "name": "toon boom",
-              "tag": "toon boom",
-              "canonical": "toonboom",
+              "uri": "/tags/cinema4d",
+              "name": "cinema4d",
+              "tag": "cinema4d",
+              "canonical": "cinema4d",
               "metadata": {
                 "connections": {
                   "videos": {
-                    "uri": "/tags/toonboom/videos",
+                    "uri": "/tags/cinema4d/videos",
                     "options": [
                       "GET"
                     ],
-                    "total": 4267
+                    "total": 129685
                   }
                 }
               },
-              "resource_key": "96225ec4821421bcc9d8321075c7f2fe470c173d"
+              "resource_key": "a65e531976100de61e8c3821278ba59f5560235c"
             },
             {
-              "uri": "/tags/harmony",
-              "name": "harmony",
-              "tag": "harmony",
-              "canonical": "harmony",
+              "uri": "/tags/showreel",
+              "name": "showreel",
+              "tag": "showreel",
+              "canonical": "showreel",
               "metadata": {
                 "connections": {
                   "videos": {
-                    "uri": "/tags/harmony/videos",
+                    "uri": "/tags/showreel/videos",
                     "options": [
                       "GET"
                     ],
-                    "total": 5468
+                    "total": 198742
                   }
                 }
               },
-              "resource_key": "7275dc1e29db0aebbb37000af5eb8e6aa2d6fb7c"
+              "resource_key": "c5442c52cb0b178c7af72d27cef443d54a6f4c31"
             },
             {
-              "uri": "/tags/offside",
-              "name": "offside",
-              "tag": "offside",
-              "canonical": "offside",
+              "uri": "/tags/motiondesign",
+              "name": "motion design",
+              "tag": "motion design",
+              "canonical": "motiondesign",
               "metadata": {
                 "connections": {
                   "videos": {
-                    "uri": "/tags/offside/videos",
+                    "uri": "/tags/motiondesign/videos",
                     "options": [
                       "GET"
                     ],
-                    "total": 272
+                    "total": 117850
                   }
                 }
               },
-              "resource_key": "e9a6be68a0df5458f3ff9cc9b0f38e03d18da406"
+              "resource_key": "04f9b11a2768cddc6e2208c46f6b814bbd6eb1d3"
             },
             {
-              "uri": "/tags/offsiderule",
-              "name": "offside rule",
-              "tag": "offside rule",
-              "canonical": "offsiderule",
+              "uri": "/tags/motiongraphic",
+              "name": "motion graphic",
+              "tag": "motion graphic",
+              "canonical": "motiongraphic",
               "metadata": {
                 "connections": {
                   "videos": {
-                    "uri": "/tags/offsiderule/videos",
+                    "uri": "/tags/motiongraphic/videos",
                     "options": [
                       "GET"
                     ],
-                    "total": 4
+                    "total": 51555
                   }
                 }
               },
-              "resource_key": "4b15caf9595245521755855523937efb4904b9dc"
+              "resource_key": "97650c9606e93ff90239937e7b315ec4c5d10aca"
             }
           ],
           "stats": {
-            "plays": 388,
-            "likes": 13,
-            "comments": 0
+            "plays": 0
           },
+          "categories": [],
           "metadata": {
             "connections": {
-              "credits": "/videos/192036109/credits",
-              "likes": "/videos/192036109/likes",
+              "comments": {
+                "uri": "/videos/383994441/comments",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 0
+              },
+              "credits": {
+                "uri": "/videos/383994441/credits",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 1
+              },
+              "likes": {
+                "uri": "/videos/383994441/likes",
+                "options": [
+                  "GET"
+                ],
+                "total": 0
+              },
+              "pictures": {
+                "uri": "/videos/383994441/pictures",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 1
+              },
               "texttracks": {
-                "uri": "/videos/192036109/texttracks",
+                "uri": "/videos/383994441/texttracks",
                 "options": [
                   "GET",
                   "POST"
@@ -616,15 +293,43 @@ angular.module('robertkalfas')
                 "total": 0
               },
               "related": {
-                "uri": "/users/robertkalfas/videos?offset=3",
+                "uri": "/users/robertkalfas/videos?offset=1",
                 "options": [
                   "GET"
                 ]
+              },
+              "recommendations": {
+                "uri": "/videos/383994441/recommendations",
+                "options": [
+                  "GET"
+                ]
+              },
+              "albums": {
+                "uri": "/videos/383994441/albums",
+                "options": [
+                  "GET",
+                  "PATCH"
+                ],
+                "total": 0
+              },
+              "available_albums": {
+                "uri": "/videos/383994441/available_albums",
+                "options": [
+                  "GET"
+                ],
+                "total": 0
+              },
+              "available_channels": {
+                "uri": "/videos/383994441/available_channels",
+                "options": [
+                  "GET"
+                ],
+                "total": 0
               }
             },
             "interactions": {
               "watchlater": {
-                "uri": "/users/1249483/watchlater/192036109",
+                "uri": "/users/107419961/watchlater/383994441",
                 "options": [
                   "GET",
                   "PUT",
@@ -634,7 +339,7 @@ angular.module('robertkalfas')
                 "added_time": null
               },
               "like": {
-                "uri": "/users/1249483/likes/192036109",
+                "uri": "/users/107419961/likes/383994441",
                 "options": [
                   "GET",
                   "PUT",
@@ -644,7 +349,7 @@ angular.module('robertkalfas')
                 "added_time": null
               },
               "report": {
-                "uri": "/videos/192036109/report",
+                "uri": "/videos/383994441/report",
                 "options": [
                   "POST"
                 ],
@@ -654,7 +359,8 @@ angular.module('robertkalfas')
                   "advertisement",
                   "ripoff",
                   "incorrect rating",
-                  "spam"
+                  "spam",
+                  "causes harm"
                 ]
               }
             }
@@ -663,36 +369,63 @@ angular.module('robertkalfas')
             "uri": "/users/11154082",
             "name": "Robert Kalfas",
             "link": "https://vimeo.com/robertkalfas",
-            "location": "Cracow",
+            "location": "Kraków, Polska",
             "bio": "I'm motion graphic artist and Toon Boom Harmony animator.\nCurrently working in studio Pigeon\nAvailable for freelance\nrobertkalfas@gmail.com",
+            "short_bio": "I&#039;m motion graphic artist and Toon Boom Harmony animator. Available for freelance robertkalfas@gmail.com",
             "created_time": "2012-04-05T17:46:33+00:00",
-            "account": "plus",
-            "pictures": [
-              {
-                "type": "portrait",
-                "width": 30,
-                "height": 30,
-                "link": "https://i.vimeocdn.com/portrait/9248478_30x30"
-              },
-              {
-                "type": "portrait",
-                "width": 75,
-                "height": 75,
-                "link": "https://i.vimeocdn.com/portrait/9248478_75x75"
-              },
-              {
-                "type": "portrait",
-                "width": 100,
-                "height": 100,
-                "link": "https://i.vimeocdn.com/portrait/9248478_100x100"
-              },
-              {
-                "type": "portrait",
-                "width": 300,
-                "height": 300,
-                "link": "https://i.vimeocdn.com/portrait/9248478_300x300"
-              }
-            ],
+            "pictures": {
+              "uri": "/users/11154082/pictures/9248478",
+              "active": true,
+              "type": "custom",
+              "sizes": [
+                {
+                  "width": 30,
+                  "height": 30,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_30x30"
+                },
+                {
+                  "width": 75,
+                  "height": 75,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_75x75"
+                },
+                {
+                  "width": 100,
+                  "height": 100,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_100x100"
+                },
+                {
+                  "width": 300,
+                  "height": 300,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_300x300"
+                },
+                {
+                  "width": 72,
+                  "height": 72,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_72x72"
+                },
+                {
+                  "width": 144,
+                  "height": 144,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_144x144"
+                },
+                {
+                  "width": 216,
+                  "height": 216,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_216x216"
+                },
+                {
+                  "width": 288,
+                  "height": 288,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_288x288"
+                },
+                {
+                  "width": 360,
+                  "height": 360,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_360x360"
+                }
+              ],
+              "resource_key": "d281515d34cd5eafd5375b257f7b8ccb21590c9a"
+            },
             "websites": [
               {
                 "name": "My Website",
@@ -712,8 +445,13 @@ angular.module('robertkalfas')
             ],
             "metadata": {
               "connections": {
-                "activities": "/users/11154082/activities",
-                "albums": "/users/11154082/albums",
+                "albums": {
+                  "uri": "/users/11154082/albums",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
                 "appearances": {
                   "uri": "/users/11154082/appearances",
                   "options": [
@@ -721,12 +459,53 @@ angular.module('robertkalfas')
                   ],
                   "total": 0
                 },
-                "channels": "/users/11154082/channels",
-                "feed": "/users/11154082/feed",
-                "followers": "/users/11154082/followers",
-                "following": "/users/11154082/following",
-                "groups": "/users/11154082/groups",
-                "likes": "/users/11154082/likes",
+                "channels": {
+                  "uri": "/users/11154082/channels",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 15
+                },
+                "feed": {
+                  "uri": "/users/11154082/feed",
+                  "options": [
+                    "GET"
+                  ]
+                },
+                "followers": {
+                  "uri": "/users/11154082/followers",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 54
+                },
+                "following": {
+                  "uri": "/users/11154082/following",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 208
+                },
+                "groups": {
+                  "uri": "/users/11154082/groups",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 8
+                },
+                "likes": {
+                  "uri": "/users/11154082/likes",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 1485
+                },
+                "membership": {
+                  "uri": "/users/11154082/membership/",
+                  "options": [
+                    "PATCH"
+                  ]
+                },
                 "moderated_channels": {
                   "uri": "/users/11154082/channels?filter=moderated",
                   "options": [
@@ -734,18 +513,46 @@ angular.module('robertkalfas')
                   ],
                   "total": 0
                 },
-                "portfolios": "/users/11154082/portfolios",
-                "videos": "/users/11154082/videos",
-                "shared": "/users/11154082/shared/videos",
-                "pictures": "/users/11154082/pictures",
-                "violations": null,
-                "watchlater": null
+                "portfolios": {
+                  "uri": "/users/11154082/portfolios",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "videos": {
+                  "uri": "/users/11154082/videos",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 6
+                },
+                "shared": {
+                  "uri": "/users/11154082/shared/videos",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 1
+                },
+                "pictures": {
+                  "uri": "/users/11154082/pictures",
+                  "options": [
+                    "GET",
+                    "POST"
+                  ],
+                  "total": 1
+                }
               },
               "interactions": {
                 "follow": {
-                  "added": true,
-                  "added_time": "2013-07-01T10:08:30+00:00",
-                  "uri": "/users/1249483/following/11154082"
+                  "added": false,
+                  "added_time": null,
+                  "uri": "/users/107419961/following/11154082",
+                  "options": [
+                    "GET",
+                    "PUT",
+                    "DELETE"
+                  ]
                 },
                 "block": {
                   "uri": "/me/block/11154082",
@@ -767,23 +574,497 @@ angular.module('robertkalfas')
                     "bad videos",
                     "creepy",
                     "not playing nice",
-                    "impersonation"
+                    "impersonation",
+                    "inappropriate job post",
+                    "advertisement"
                   ]
                 }
               }
             },
             "resource_key": "e6f39a32146da2a9dd481e6568f0b0f0f43a7087",
-            "preferences": {
-              "videos": {
-                "privacy": null
+            "account": "plus"
+          },
+          "app": {
+            "name": "Parallel Uploader",
+            "uri": "/apps/87099"
+          },
+          "status": "available",
+          "resource_key": "731812a5f0e058a7d40ae288f6b99a9105820a07",
+          "upload": {
+            "status": "complete",
+            "link": null,
+            "upload_link": null,
+            "complete_uri": null,
+            "form": null,
+            "approach": null,
+            "size": null,
+            "redirect_url": null
+          },
+          "transcode": {
+            "status": "complete"
+          }
+        },
+        {
+          "uri": "/videos/383742428",
+          "name": "The Polish Humanitarian Action (Polska Akcja Humanitarna)",
+          "description": "The Polish Humanitarian Action is a Polish non-governmental organisation. It's mission is \"to make the world a better place through alleviation of human suffering and promotion of humanitarian values\". We were honoured to have worked with PAH on their new commercial. Main focus of the video are ordinary people who by doing small thing, can make the big difference.\n\nBehance: https://www.behance.net/gallery/90152233/The-Polish-Humanitarian-Action\n\nCreative Direction: Joanna Dudoń, Robert Kalfas\n\nGraphic Design: Joanna Dudoń\n\nAnimation: Robert Kalfas\n\nCopywriting: Ewa Ratyńska\n\nVoice Over: Jarosław Boberek\n\nSound Design: Igor Struzik",
+          "type": "video",
+          "link": "https://vimeo.com/383742428",
+          "duration": 32,
+          "width": 1920,
+          "language": "pl",
+          "height": 1080,
+          "embed": {
+            "html": "<iframe src=\"https://player.vimeo.com/video/383742428?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=163472\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"The Polish Humanitarian Action (Polska Akcja Humanitarna)\"></iframe>",
+            "badges": {
+              "hdr": false,
+              "live": {
+                "streaming": false,
+                "archived": false
+              },
+              "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+              },
+              "vod": false,
+              "weekend_challenge": false
+            }
+          },
+          "created_time": "2020-01-09T12:49:00+00:00",
+          "modified_time": "2020-01-11T14:06:01+00:00",
+          "release_time": "2020-01-09T12:49:00+00:00",
+          "content_rating": [
+            "safe"
+          ],
+          "license": null,
+          "privacy": {
+            "view": "anybody",
+            "embed": "public",
+            "download": true,
+            "add": true,
+            "comments": "anybody"
+          },
+          "pictures": [
+            {
+              "width": 100,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/video/845269265_100x75.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1280,
+              "height": 720,
+              "link": "https://i.vimeocdn.com/video/845269265_1280x720.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 200,
+              "height": 150,
+              "link": "https://i.vimeocdn.com/video/845269265_200x150.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 295,
+              "height": 166,
+              "link": "https://i.vimeocdn.com/video/845269265_295x166.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 640,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/video/845269265_640x360.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 640,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/video/845269265_640x360.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 960,
+              "height": 540,
+              "link": "https://i.vimeocdn.com/video/845269265_960x540.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_960x540.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1280,
+              "height": 720,
+              "link": "https://i.vimeocdn.com/video/845269265_1280x720.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1920,
+              "height": 1080,
+              "link": "https://i.vimeocdn.com/video/845269265_1920x1080.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            },
+            {
+              "width": 1280,
+              "height": 720,
+              "link": "https://i.vimeocdn.com/video/845269265_1280x720.jpg?r=pad",
+              "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F845269265_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+            }
+          ],
+          "tags": [],
+          "stats": {
+            "plays": 10
+          },
+          "categories": [],
+          "metadata": {
+            "connections": {
+              "comments": {
+                "uri": "/videos/383742428/comments",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 2
+              },
+              "credits": {
+                "uri": "/videos/383742428/credits",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 1
+              },
+              "likes": {
+                "uri": "/videos/383742428/likes",
+                "options": [
+                  "GET"
+                ],
+                "total": 2
+              },
+              "pictures": {
+                "uri": "/videos/383742428/pictures",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 1
+              },
+              "texttracks": {
+                "uri": "/videos/383742428/texttracks",
+                "options": [
+                  "GET",
+                  "POST"
+                ],
+                "total": 0
+              },
+              "related": {
+                "uri": "/users/robertkalfas/videos?offset=1",
+                "options": [
+                  "GET"
+                ]
+              },
+              "recommendations": {
+                "uri": "/videos/383742428/recommendations",
+                "options": [
+                  "GET"
+                ]
+              },
+              "albums": {
+                "uri": "/videos/383742428/albums",
+                "options": [
+                  "GET",
+                  "PATCH"
+                ],
+                "total": 0
+              },
+              "available_albums": {
+                "uri": "/videos/383742428/available_albums",
+                "options": [
+                  "GET"
+                ],
+                "total": 0
+              },
+              "available_channels": {
+                "uri": "/videos/383742428/available_channels",
+                "options": [
+                  "GET"
+                ],
+                "total": 0
               }
             },
-            "stats": {}
+            "interactions": {
+              "watchlater": {
+                "uri": "/users/107419961/watchlater/383742428",
+                "options": [
+                  "GET",
+                  "PUT",
+                  "DELETE"
+                ],
+                "added": false,
+                "added_time": null
+              },
+              "like": {
+                "uri": "/users/107419961/likes/383742428",
+                "options": [
+                  "GET",
+                  "PUT",
+                  "DELETE"
+                ],
+                "added": false,
+                "added_time": null
+              },
+              "report": {
+                "uri": "/videos/383742428/report",
+                "options": [
+                  "POST"
+                ],
+                "reason": [
+                  "pornographic",
+                  "harassment",
+                  "advertisement",
+                  "ripoff",
+                  "incorrect rating",
+                  "spam",
+                  "causes harm"
+                ]
+              }
+            }
           },
-          "app": null,
+          "user": {
+            "uri": "/users/11154082",
+            "name": "Robert Kalfas",
+            "link": "https://vimeo.com/robertkalfas",
+            "location": "Kraków, Polska",
+            "bio": "I'm motion graphic artist and Toon Boom Harmony animator.\nCurrently working in studio Pigeon\nAvailable for freelance\nrobertkalfas@gmail.com",
+            "short_bio": "I&#039;m motion graphic artist and Toon Boom Harmony animator. Available for freelance robertkalfas@gmail.com",
+            "created_time": "2012-04-05T17:46:33+00:00",
+            "pictures": {
+              "uri": "/users/11154082/pictures/9248478",
+              "active": true,
+              "type": "custom",
+              "sizes": [
+                {
+                  "width": 30,
+                  "height": 30,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_30x30"
+                },
+                {
+                  "width": 75,
+                  "height": 75,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_75x75"
+                },
+                {
+                  "width": 100,
+                  "height": 100,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_100x100"
+                },
+                {
+                  "width": 300,
+                  "height": 300,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_300x300"
+                },
+                {
+                  "width": 72,
+                  "height": 72,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_72x72"
+                },
+                {
+                  "width": 144,
+                  "height": 144,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_144x144"
+                },
+                {
+                  "width": 216,
+                  "height": 216,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_216x216"
+                },
+                {
+                  "width": 288,
+                  "height": 288,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_288x288"
+                },
+                {
+                  "width": 360,
+                  "height": 360,
+                  "link": "https://i.vimeocdn.com/portrait/9248478_360x360"
+                }
+              ],
+              "resource_key": "d281515d34cd5eafd5375b257f7b8ccb21590c9a"
+            },
+            "websites": [
+              {
+                "name": "My Website",
+                "link": "www.robertkalfas.tv",
+                "description": null
+              },
+              {
+                "name": "Behance profile",
+                "link": "www.behance.net/robertkalfas",
+                "description": null
+              },
+              {
+                "name": "twitter account",
+                "link": "twitter.com/RobertKalfas",
+                "description": null
+              }
+            ],
+            "metadata": {
+              "connections": {
+                "albums": {
+                  "uri": "/users/11154082/albums",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "appearances": {
+                  "uri": "/users/11154082/appearances",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "channels": {
+                  "uri": "/users/11154082/channels",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 15
+                },
+                "feed": {
+                  "uri": "/users/11154082/feed",
+                  "options": [
+                    "GET"
+                  ]
+                },
+                "followers": {
+                  "uri": "/users/11154082/followers",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 54
+                },
+                "following": {
+                  "uri": "/users/11154082/following",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 208
+                },
+                "groups": {
+                  "uri": "/users/11154082/groups",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 8
+                },
+                "likes": {
+                  "uri": "/users/11154082/likes",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 1485
+                },
+                "membership": {
+                  "uri": "/users/11154082/membership/",
+                  "options": [
+                    "PATCH"
+                  ]
+                },
+                "moderated_channels": {
+                  "uri": "/users/11154082/channels?filter=moderated",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "portfolios": {
+                  "uri": "/users/11154082/portfolios",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 0
+                },
+                "videos": {
+                  "uri": "/users/11154082/videos",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 5
+                },
+                "shared": {
+                  "uri": "/users/11154082/shared/videos",
+                  "options": [
+                    "GET"
+                  ],
+                  "total": 1
+                },
+                "pictures": {
+                  "uri": "/users/11154082/pictures",
+                  "options": [
+                    "GET",
+                    "POST"
+                  ],
+                  "total": 1
+                }
+              },
+              "interactions": {
+                "follow": {
+                  "added": false,
+                  "added_time": null,
+                  "uri": "/users/107419961/following/11154082",
+                  "options": [
+                    "GET",
+                    "PUT",
+                    "DELETE"
+                  ]
+                },
+                "block": {
+                  "uri": "/me/block/11154082",
+                  "options": [
+                    "PUT",
+                    "DELETE"
+                  ],
+                  "added": false,
+                  "added_time": null
+                },
+                "report": {
+                  "uri": "/users/11154082/report",
+                  "options": [
+                    "POST"
+                  ],
+                  "reason": [
+                    "inappropriate avatar",
+                    "spammy",
+                    "bad videos",
+                    "creepy",
+                    "not playing nice",
+                    "impersonation",
+                    "inappropriate job post",
+                    "advertisement"
+                  ]
+                }
+              }
+            },
+            "resource_key": "e6f39a32146da2a9dd481e6568f0b0f0f43a7087",
+            "account": "plus"
+          },
+          "app": {
+            "name": "Parallel Uploader",
+            "uri": "/apps/87099"
+          },
           "status": "available",
-          "resource_key": "1b6f7a60fc3c9ab63f6151c5d559748bcde0adfe",
-          "embed_presets": null
+          "resource_key": "f9ca18a7c190540665b0e748beb77cfc6d4b0be1",
+          "upload": {
+            "status": "complete",
+            "link": null,
+            "upload_link": null,
+            "complete_uri": null,
+            "form": null,
+            "approach": null,
+            "size": null,
+            "redirect_url": null
+          },
+          "transcode": {
+            "status": "complete"
+          }
         },
         {
           "uri": "/videos/236735076",
