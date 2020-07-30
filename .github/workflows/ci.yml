@@ -11,6 +11,11 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '6.12.1'
+
       - name: Install and Build 🔧
         run: |
           npm install
